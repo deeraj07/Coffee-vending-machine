@@ -1,0 +1,788 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$C:\Users\saidh\AppData\Local\Temp\xcAsfbo.o
+end_init CODE 0 0 0 3 2
+config CONFIG 4 2007 2007 1 2
+$dist/default/production\coffeemaker.X.production.o
+cinit CODE 0 7E1 7E1 1F 2
+text1 CODE 0 131 131 1BB 2
+text2 CODE 0 E51 E51 34 2
+text3 CODE 0 2EC 2EC 1EE 2
+text4 CODE 0 F1D F1D E3 2
+text5 CODE 0 F1 F1 A 2
+text6 CODE 0 E85 E85 48 2
+text7 CODE 0 E38 E38 19 2
+text8 CODE 0 E06 E06 A 2
+text9 CODE 0 E23 E23 15 2
+maintext CODE 0 4DA 4DA 307 2
+cstackCOMMON COMMON 1 70 70 E 1
+cstackBANK0 BANK0 1 20 20 4F 1
+cstackBANK1 BANK1 1 A0 A0 50 1
+cstackBANK3 BANK3 1 1C6 1C6 4 1
+inittext CODE 0 E10 E10 13 2
+idataBANK2 CODE 0 ECD ECD 50 2
+idataBANK3 CODE 0 FB FB 36 2
+strings STRING 0 3 3 ED 2
+dataBANK2 BANK2 1 110 110 50 1
+dataBANK3 BANK3 1 190 190 36 1
+config CONFIG 4 2007 2007 1 2
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 6F-6F 1
+RAM 160-16F 1
+RAM 1CA-1EF 1
+BANK0 6F-6F 1
+BANK2 160-16F 1
+BANK3 1CA-1EF 1
+CONST F0-F0 2
+CONST 800-E05 2
+CONST 1000-1FFF 2
+ENTRY F0-F0 2
+ENTRY 800-E05 2
+ENTRY 1000-1FFF 2
+IDLOC 2000-2003 2
+STACK 1CA-1EF 1
+CODE F0-F0 2
+CODE 800-E05 2
+CODE 1000-1FFF 2
+SFR0 0-1F 1
+SFR1 80-9F 1
+SFR2 100-10F 1
+SFR3 180-18F 1
+EEDATA 2100-21FF 2
+STRCODE F0-F0 2
+STRCODE 800-E05 2
+STRCODE 1000-1FFF 2
+STRING F0-F0 2
+STRING 800-E05 2
+STRING 1000-1FFF 2
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production\coffeemaker.X.production.o
+7E1 cinit CODE >886:C:\Users\saidh\AppData\Local\Temp\xcAsfbo.s
+7E1 cinit CODE >889:C:\Users\saidh\AppData\Local\Temp\xcAsfbo.s
+7E1 cinit CODE >950:C:\Users\saidh\AppData\Local\Temp\xcAsfbo.s
+7E2 cinit CODE >951:C:\Users\saidh\AppData\Local\Temp\xcAsfbo.s
+7E3 cinit CODE >952:C:\Users\saidh\AppData\Local\Temp\xcAsfbo.s
+7E4 cinit CODE >953:C:\Users\saidh\AppData\Local\Temp\xcAsfbo.s
+7E5 cinit CODE >954:C:\Users\saidh\AppData\Local\Temp\xcAsfbo.s
+7E6 cinit CODE >955:C:\Users\saidh\AppData\Local\Temp\xcAsfbo.s
+7E7 cinit CODE >956:C:\Users\saidh\AppData\Local\Temp\xcAsfbo.s
+7E8 cinit CODE >957:C:\Users\saidh\AppData\Local\Temp\xcAsfbo.s
+7E9 cinit CODE >958:C:\Users\saidh\AppData\Local\Temp\xcAsfbo.s
+7EA cinit CODE >959:C:\Users\saidh\AppData\Local\Temp\xcAsfbo.s
+7EF cinit CODE >963:C:\Users\saidh\AppData\Local\Temp\xcAsfbo.s
+7F0 cinit CODE >964:C:\Users\saidh\AppData\Local\Temp\xcAsfbo.s
+7F1 cinit CODE >965:C:\Users\saidh\AppData\Local\Temp\xcAsfbo.s
+7F2 cinit CODE >966:C:\Users\saidh\AppData\Local\Temp\xcAsfbo.s
+7F3 cinit CODE >967:C:\Users\saidh\AppData\Local\Temp\xcAsfbo.s
+7F4 cinit CODE >968:C:\Users\saidh\AppData\Local\Temp\xcAsfbo.s
+7F5 cinit CODE >969:C:\Users\saidh\AppData\Local\Temp\xcAsfbo.s
+7F6 cinit CODE >970:C:\Users\saidh\AppData\Local\Temp\xcAsfbo.s
+7F7 cinit CODE >971:C:\Users\saidh\AppData\Local\Temp\xcAsfbo.s
+7FC cinit CODE >977:C:\Users\saidh\AppData\Local\Temp\xcAsfbo.s
+7FC cinit CODE >979:C:\Users\saidh\AppData\Local\Temp\xcAsfbo.s
+7FD cinit CODE >980:C:\Users\saidh\AppData\Local\Temp\xcAsfbo.s
+E23 text9 CODE >4:D:\mplab x\pic\sources\c90\common\Umul8.c
+E24 text9 CODE >6:D:\mplab x\pic\sources\c90\common\Umul8.c
+E25 text9 CODE >43:D:\mplab x\pic\sources\c90\common\Umul8.c
+E29 text9 CODE >44:D:\mplab x\pic\sources\c90\common\Umul8.c
+E2D text9 CODE >45:D:\mplab x\pic\sources\c90\common\Umul8.c
+E2F text9 CODE >46:D:\mplab x\pic\sources\c90\common\Umul8.c
+E31 text9 CODE >47:D:\mplab x\pic\sources\c90\common\Umul8.c
+E36 text9 CODE >50:D:\mplab x\pic\sources\c90\common\Umul8.c
+E37 text9 CODE >51:D:\mplab x\pic\sources\c90\common\Umul8.c
+E06 text8 CODE >52:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+E07 text8 CODE >54:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+E0B text8 CODE >55:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+E0C text8 CODE >56:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+E0D text8 CODE >57:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+E0E text8 CODE >58:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+E0F text8 CODE >59:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+E38 text7 CODE >74:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+E38 text7 CODE >76:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+E3E text7 CODE >77:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+E44 text7 CODE >78:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+E4A text7 CODE >79:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+E50 text7 CODE >80:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+E85 text6 CODE >268:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+E88 text6 CODE >270:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+E8B text6 CODE >272:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+E92 text6 CODE >272:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+EAD text6 CODE >272:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+EB1 text6 CODE >274:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+EB6 text6 CODE >276:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+EB8 text6 CODE >276:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+EC2 text6 CODE >276:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+EC6 text6 CODE >276:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+ECA text6 CODE >277:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+ECC text6 CODE >278:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+F1 text5 CODE >41:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+F2 text5 CODE >43:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+F6 text5 CODE >44:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+F7 text5 CODE >45:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+F8 text5 CODE >46:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+F9 text5 CODE >47:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+FA text5 CODE >48:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+F1D text4 CODE >187:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+F1D text4 CODE >189:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+F1D text4 CODE >191:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+F22 text4 CODE >192:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+F26 text4 CODE >194:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+F2C text4 CODE >195:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+F32 text4 CODE >196:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+F34 text4 CODE >197:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+F34 text4 CODE >198:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+F38 text4 CODE >200:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+F3E text4 CODE >201:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+F44 text4 CODE >202:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+F46 text4 CODE >203:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+F46 text4 CODE >204:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+F4A text4 CODE >206:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+F50 text4 CODE >207:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+F56 text4 CODE >208:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+F58 text4 CODE >209:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+F58 text4 CODE >210:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+F5C text4 CODE >212:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+F62 text4 CODE >213:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+F68 text4 CODE >214:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+F6A text4 CODE >215:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+F6A text4 CODE >216:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+F6D text4 CODE >217:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+F71 text4 CODE >219:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+F77 text4 CODE >220:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+F7D text4 CODE >221:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+F7F text4 CODE >222:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+F7F text4 CODE >223:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+F83 text4 CODE >225:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+F89 text4 CODE >226:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+F8F text4 CODE >227:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+F91 text4 CODE >228:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+F91 text4 CODE >229:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+F95 text4 CODE >231:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+F9B text4 CODE >232:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+FA1 text4 CODE >233:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+FA3 text4 CODE >234:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+FA3 text4 CODE >235:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+FA7 text4 CODE >237:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+FAD text4 CODE >238:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+FB3 text4 CODE >239:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+FB5 text4 CODE >240:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+FB5 text4 CODE >241:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+FB8 text4 CODE >242:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+FBC text4 CODE >244:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+FC2 text4 CODE >245:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+FC8 text4 CODE >246:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+FCA text4 CODE >247:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+FCA text4 CODE >248:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+FCE text4 CODE >250:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+FD4 text4 CODE >251:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+FDA text4 CODE >252:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+FDC text4 CODE >253:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+FDC text4 CODE >254:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+FE0 text4 CODE >256:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+FE6 text4 CODE >257:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+FEC text4 CODE >258:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+FEE text4 CODE >259:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+FEE text4 CODE >260:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+FF2 text4 CODE >262:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+FF8 text4 CODE >263:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+FFE text4 CODE >264:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+FFF text4 CODE >267:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+2EC text3 CODE >81:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+2ED text3 CODE >85:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+2F3 text3 CODE >87:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+2F6 text3 CODE >88:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+2F8 text3 CODE >90:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+2FB text3 CODE >91:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+300 text3 CODE >92:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+303 text3 CODE >93:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+30C text3 CODE >94:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+30E text3 CODE >94:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+315 text3 CODE >94:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+317 text3 CODE >94:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+31B text3 CODE >95:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+328 text3 CODE >96:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+32A text3 CODE >98:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+32D text3 CODE >99:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+332 text3 CODE >100:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+335 text3 CODE >101:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+33E text3 CODE >102:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+340 text3 CODE >102:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+347 text3 CODE >102:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+349 text3 CODE >102:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+34D text3 CODE >103:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+34F text3 CODE >105:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+352 text3 CODE >106:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+357 text3 CODE >107:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+35A text3 CODE >108:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+363 text3 CODE >109:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+365 text3 CODE >109:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+36C text3 CODE >109:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+36E text3 CODE >109:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+372 text3 CODE >110:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+37F text3 CODE >111:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+381 text3 CODE >113:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+384 text3 CODE >114:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+389 text3 CODE >115:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+38C text3 CODE >116:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+395 text3 CODE >117:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+397 text3 CODE >117:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+39E text3 CODE >117:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+3A0 text3 CODE >117:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+3A4 text3 CODE >118:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+3A7 text3 CODE >119:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+3B4 text3 CODE >120:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+3B7 text3 CODE >121:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+3B9 text3 CODE >123:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+3BC text3 CODE >124:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+3C1 text3 CODE >125:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+3C4 text3 CODE >126:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+3CD text3 CODE >127:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+3CF text3 CODE >127:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+3D6 text3 CODE >127:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+3D8 text3 CODE >127:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+3DC text3 CODE >128:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+3E9 text3 CODE >129:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+3EB text3 CODE >131:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+3EE text3 CODE >132:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+3F3 text3 CODE >133:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+3F6 text3 CODE >134:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+3FF text3 CODE >135:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+401 text3 CODE >135:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+408 text3 CODE >135:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+40A text3 CODE >135:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+40E text3 CODE >136:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+411 text3 CODE >139:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+412 text3 CODE >140:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+418 text3 CODE >142:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+41B text3 CODE >143:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+41D text3 CODE >145:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+420 text3 CODE >146:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+425 text3 CODE >147:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+428 text3 CODE >148:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+431 text3 CODE >149:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+433 text3 CODE >149:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+43A text3 CODE >149:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+43C text3 CODE >149:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+440 text3 CODE >150:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+44D text3 CODE >151:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+44F text3 CODE >153:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+452 text3 CODE >154:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+457 text3 CODE >155:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+45A text3 CODE >156:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+463 text3 CODE >157:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+465 text3 CODE >157:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+46C text3 CODE >157:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+46E text3 CODE >157:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+472 text3 CODE >158:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+475 text3 CODE >160:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+476 text3 CODE >161:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+47C text3 CODE >163:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+47F text3 CODE >164:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+481 text3 CODE >166:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+484 text3 CODE >167:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+489 text3 CODE >168:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+48C text3 CODE >169:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+495 text3 CODE >170:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+497 text3 CODE >170:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+49E text3 CODE >170:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+4A0 text3 CODE >170:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+4A4 text3 CODE >171:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+4B1 text3 CODE >172:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+4B3 text3 CODE >174:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+4B6 text3 CODE >175:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+4BB text3 CODE >176:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+4BE text3 CODE >177:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+4C7 text3 CODE >178:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+4C9 text3 CODE >178:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+4D0 text3 CODE >178:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+4D2 text3 CODE >178:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+4D6 text3 CODE >180:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+4D9 text3 CODE >184:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+E51 text2 CODE >63:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+E51 text2 CODE >66:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+E54 text2 CODE >68:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+E59 text2 CODE >68:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+E70 text2 CODE >69:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+E72 text2 CODE >69:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+E7C text2 CODE >69:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+E80 text2 CODE >69:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+E84 text2 CODE >70:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+131 text1 CODE >279:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+134 text1 CODE >283:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+13E text1 CODE >284:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+144 text1 CODE >286:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+14A text1 CODE >287:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+150 text1 CODE >288:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+15D text1 CODE >289:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+163 text1 CODE >290:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+170 text1 CODE >291:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+178 text1 CODE >292:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+17E text1 CODE >293:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+184 text1 CODE >294:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+191 text1 CODE >295:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+197 text1 CODE >296:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+1A4 text1 CODE >297:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+1AE text1 CODE >298:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+1C2 text1 CODE >299:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+1C8 text1 CODE >301:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+1CD text1 CODE >306:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+1D3 text1 CODE >308:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+1D9 text1 CODE >309:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+1DF text1 CODE >310:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+1EC text1 CODE >311:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+1F2 text1 CODE >312:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+1FF text1 CODE >313:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+207 text1 CODE >314:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+20D text1 CODE >315:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+213 text1 CODE >316:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+220 text1 CODE >317:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+226 text1 CODE >318:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+233 text1 CODE >319:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+23D text1 CODE >320:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+251 text1 CODE >321:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+257 text1 CODE >323:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+25C text1 CODE >327:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+262 text1 CODE >329:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+268 text1 CODE >330:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+26E text1 CODE >331:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+27B text1 CODE >332:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+281 text1 CODE >333:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+28E text1 CODE >334:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+296 text1 CODE >335:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+29C text1 CODE >336:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+2A2 text1 CODE >337:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+2AF text1 CODE >338:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+2B5 text1 CODE >339:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+2C2 text1 CODE >340:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+2CC text1 CODE >341:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+2E0 text1 CODE >342:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+2E6 text1 CODE >344:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+2EA text1 CODE >346:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+2EA text1 CODE >348:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+2EB text1 CODE >349:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+4DA maintext CODE >351:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+4DA maintext CODE >354:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+4DD maintext CODE >355:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+4DE maintext CODE >356:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+4E0 maintext CODE >357:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+4E1 maintext CODE >358:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+4E2 maintext CODE >359:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+4E5 maintext CODE >360:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+4EA maintext CODE >361:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+4ED maintext CODE >362:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+4EE maintext CODE >363:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+4EF maintext CODE >364:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+4F0 maintext CODE >365:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+4F1 maintext CODE >366:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+4F2 maintext CODE >367:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+4F3 maintext CODE >368:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+4F4 maintext CODE >369:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+4F5 maintext CODE >370:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+50B maintext CODE >371:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+521 maintext CODE >372:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+537 maintext CODE >373:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+53D maintext CODE >374:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+54A maintext CODE >375:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+558 maintext CODE >378:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+55E maintext CODE >379:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+56B maintext CODE >380:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+575 maintext CODE >382:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+57B maintext CODE >383:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+591 maintext CODE >385:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+592 maintext CODE >387:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+59C maintext CODE >388:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+5A4 maintext CODE >389:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+5A8 maintext CODE >389:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+5AC maintext CODE >385:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+5B3 maintext CODE >385:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+5B7 maintext CODE >385:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+5BB maintext CODE >391:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+5BE maintext CODE >392:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+5C4 maintext CODE >399:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+5C4 maintext CODE >401:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+5C8 maintext CODE >402:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+5CC maintext CODE >404:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+5EE maintext CODE >405:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+5F4 maintext CODE >407:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+5FA maintext CODE >408:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+600 maintext CODE >409:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+606 maintext CODE >410:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+613 maintext CODE >411:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+619 maintext CODE >412:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+634 maintext CODE >413:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+642 maintext CODE >415:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+648 maintext CODE >418:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+64C maintext CODE >418:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+655 maintext CODE >418:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+659 maintext CODE >418:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+65D maintext CODE >420:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+665 maintext CODE >422:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+66B maintext CODE >423:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+678 maintext CODE >424:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+686 maintext CODE >425:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+687 maintext CODE >428:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+69E maintext CODE >429:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+6A4 maintext CODE >430:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+6AC maintext CODE >432:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+6B2 maintext CODE >433:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+6BF maintext CODE >434:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+6C5 maintext CODE >435:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+6D2 maintext CODE >436:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+6EB maintext CODE >437:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+6EC maintext CODE >440:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+6F2 maintext CODE >441:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+6F8 maintext CODE >442:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+705 maintext CODE >443:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+70B maintext CODE >444:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+718 maintext CODE >445:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+722 maintext CODE >446:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+728 maintext CODE >448:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+72E maintext CODE >449:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+734 maintext CODE >450:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+741 maintext CODE >451:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+747 maintext CODE >452:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+754 maintext CODE >453:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+760 maintext CODE >455:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+761 maintext CODE >456:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+767 maintext CODE >458:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+76D maintext CODE >459:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+773 maintext CODE >460:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+780 maintext CODE >461:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+786 maintext CODE >462:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+793 maintext CODE >463:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+7AD maintext CODE >466:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+7AD maintext CODE >468:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+7B3 maintext CODE >469:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+7B9 maintext CODE >470:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+7C6 maintext CODE >471:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+7D4 maintext CODE >472:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+7DA maintext CODE >473:D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+E10 inittext CODE >924:C:\Users\saidh\AppData\Local\Temp\xcAsfbo.s
+E10 inittext CODE >925:C:\Users\saidh\AppData\Local\Temp\xcAsfbo.s
+E11 inittext CODE >926:C:\Users\saidh\AppData\Local\Temp\xcAsfbo.s
+E12 inittext CODE >927:C:\Users\saidh\AppData\Local\Temp\xcAsfbo.s
+E13 inittext CODE >928:C:\Users\saidh\AppData\Local\Temp\xcAsfbo.s
+E14 inittext CODE >935:C:\Users\saidh\AppData\Local\Temp\xcAsfbo.s
+E14 inittext CODE >936:C:\Users\saidh\AppData\Local\Temp\xcAsfbo.s
+E19 inittext CODE >937:C:\Users\saidh\AppData\Local\Temp\xcAsfbo.s
+E1A inittext CODE >938:C:\Users\saidh\AppData\Local\Temp\xcAsfbo.s
+E1B inittext CODE >939:C:\Users\saidh\AppData\Local\Temp\xcAsfbo.s
+E1C inittext CODE >940:C:\Users\saidh\AppData\Local\Temp\xcAsfbo.s
+E1D inittext CODE >941:C:\Users\saidh\AppData\Local\Temp\xcAsfbo.s
+E1E inittext CODE >942:C:\Users\saidh\AppData\Local\Temp\xcAsfbo.s
+E1F inittext CODE >943:C:\Users\saidh\AppData\Local\Temp\xcAsfbo.s
+E20 inittext CODE >944:C:\Users\saidh\AppData\Local\Temp\xcAsfbo.s
+E21 inittext CODE >945:C:\Users\saidh\AppData\Local\Temp\xcAsfbo.s
+E22 inittext CODE >946:C:\Users\saidh\AppData\Local\Temp\xcAsfbo.s
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+___latbits 2 0 ABS 0 - dist/default/production\coffeemaker.X.production.o
+__LdataBANK2 0 0 ABS 0 dataBANK2 -
+__LdataBANK3 0 0 ABS 0 dataBANK3 -
+__Hspace_0 1000 0 ABS 0 - -
+__Hspace_1 1CA 0 ABS 0 - -
+__Hspace_2 0 0 ABS 0 - -
+__Hspace_3 0 0 ABS 0 - -
+__Hspace_4 400F 0 ABS 0 - -
+__HidataBANK2 0 0 ABS 0 idataBANK2 -
+__HidataBANK3 0 0 ABS 0 idataBANK3 -
+__Heeprom_data 0 0 EEDATA 3 eeprom_data -
+main@f 68 0 BANK0 1 cstackBANK0 dist/default/production\coffeemaker.X.production.o
+main@i 6C 0 BANK0 1 cstackBANK0 dist/default/production\coffeemaker.X.production.o
+main@j 1C6 0 BANK3 1 cstackBANK3 dist/default/production\coffeemaker.X.production.o
+main@k 6E 0 BANK0 1 cstackBANK0 dist/default/production\coffeemaker.X.production.o
+__Hstrings 0 0 ABS 0 strings -
+___sp 0 0 STACK 2 stack C:\Users\saidh\AppData\Local\Temp\xcAsfbo.o
+_init 1C70 0 CODE 0 text7 dist/default/production\coffeemaker.X.production.o
+_main 9B4 0 CODE 0 maintext dist/default/production\coffeemaker.X.production.o
+btemp 7E 0 ABS 0 - dist/default/production\coffeemaker.X.production.o
+start 0 0 CODE 0 init C:\Users\saidh\AppData\Local\Temp\xcAsfbo.o
+__size_of_init 0 0 ABS 0 - dist/default/production\coffeemaker.X.production.o
+__size_of_main 0 0 ABS 0 - dist/default/production\coffeemaker.X.production.o
+middle@str 29 0 BANK0 1 cstackBANK0 dist/default/production\coffeemaker.X.production.o
+?_compare 74 0 COMMON 1 cstackCOMMON dist/default/production\coffeemaker.X.production.o
+__LidataBANK2 0 0 ABS 0 idataBANK2 -
+__LidataBANK3 0 0 ABS 0 idataBANK3 -
+__Hpowerup 0 0 CODE 0 powerup -
+__size_of_instruct 0 0 ABS 0 - dist/default/production\coffeemaker.X.production.o
+intlevel0 0 0 ENTRY 0 functab C:\Users\saidh\AppData\Local\Temp\xcAsfbo.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\saidh\AppData\Local\Temp\xcAsfbo.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\saidh\AppData\Local\Temp\xcAsfbo.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\saidh\AppData\Local\Temp\xcAsfbo.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\saidh\AppData\Local\Temp\xcAsfbo.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\saidh\AppData\Local\Temp\xcAsfbo.o
+___bmul@multiplicand 70 0 COMMON 1 cstackCOMMON dist/default/production\coffeemaker.X.production.o
+wtemp0 7E 0 ABS 0 - dist/default/production\coffeemaker.X.production.o
+__Hfunctab 0 0 ENTRY 0 functab -
+__Hclrtext 0 0 ABS 0 clrtext -
+__end_of___bmul 1C70 0 CODE 0 text9 dist/default/production\coffeemaker.X.production.o
+main@arr A0 0 BANK1 1 cstackBANK1 dist/default/production\coffeemaker.X.production.o
+main@var 1C8 0 BANK3 1 cstackBANK3 dist/default/production\coffeemaker.X.production.o
+_instruct 1C0C 0 CODE 0 text8 dist/default/production\coffeemaker.X.production.o
+__Lmaintext 0 0 ABS 0 maintext -
+___bmul@multiplier 73 0 COMMON 1 cstackCOMMON dist/default/production\coffeemaker.X.production.o
+making@i 74 0 COMMON 1 cstackCOMMON dist/default/production\coffeemaker.X.production.o
+making@j 76 0 COMMON 1 cstackCOMMON dist/default/production\coffeemaker.X.production.o
+making@t 73 0 COMMON 1 cstackCOMMON dist/default/production\coffeemaker.X.production.o
+compare@i 21 0 BANK0 1 cstackBANK0 dist/default/production\coffeemaker.X.production.o
+__end_of_instruct 1C20 0 CODE 0 text8 dist/default/production\coffeemaker.X.production.o
+___stackhi 0 0 ABS 0 - C:\Users\saidh\AppData\Local\Temp\xcAsfbo.o
+___stacklo 0 0 ABS 0 - C:\Users\saidh\AppData\Local\Temp\xcAsfbo.o
+__size_of_store 0 0 ABS 0 - dist/default/production\coffeemaker.X.production.o
+__size_of_strin 0 0 ABS 0 - dist/default/production\coffeemaker.X.production.o
+start_initialization FC2 0 CODE 0 cinit dist/default/production\coffeemaker.X.production.o
+__end_of_keypad 2000 0 CODE 0 text4 dist/default/production\coffeemaker.X.production.o
+__end_of_making 9B4 0 CODE 0 text3 dist/default/production\coffeemaker.X.production.o
+__end_of_middle 5D8 0 CODE 0 text1 dist/default/production\coffeemaker.X.production.o
+__pcstackBANK0 20 0 BANK0 1 cstackBANK0 dist/default/production\coffeemaker.X.production.o
+__pcstackBANK1 A0 0 BANK1 1 cstackBANK1 dist/default/production\coffeemaker.X.production.o
+__pcstackBANK3 1C6 0 BANK3 1 cstackBANK3 dist/default/production\coffeemaker.X.production.o
+___int_sp 0 0 STACK 2 stack C:\Users\saidh\AppData\Local\Temp\xcAsfbo.o
+__Hbank0 0 0 ABS 0 bank0 -
+__Hbank1 0 0 ABS 0 bank1 -
+__Hbank2 0 0 ABS 0 bank2 -
+__Hbank3 0 0 ABS 0 bank3 -
+__Hcinit 1000 0 CODE 0 cinit -
+__Hstack 0 0 STACK 2 stack -
+__stringbase 24 0 STRING 0 strings dist/default/production\coffeemaker.X.production.o
+__size_of_compare 0 0 ABS 0 - dist/default/production\coffeemaker.X.production.o
+__Hmaintext 0 0 ABS 0 maintext -
+__Hcommon 0 0 ABS 0 common -
+__Hconfig 4010 0 CONFIG 4 config -
+compare@len 76 0 COMMON 1 cstackCOMMON dist/default/production\coffeemaker.X.production.o
+__Lbank0 0 0 ABS 0 bank0 -
+__Lbank1 0 0 ABS 0 bank1 -
+__Lbank2 0 0 ABS 0 bank2 -
+__Lbank3 0 0 ABS 0 bank3 -
+__Lcinit FC2 0 CODE 0 cinit -
+instruct@inst 70 0 COMMON 1 cstackCOMMON dist/default/production\coffeemaker.X.production.o
+__Lstack 0 0 STACK 2 stack -
+__Linittext 0 0 ABS 0 inittext -
+_PORTDbits 8 0 ABS 0 - dist/default/production\coffeemaker.X.production.o
+_PORTEbits 9 0 ABS 0 - dist/default/production\coffeemaker.X.production.o
+store@data 70 0 COMMON 1 cstackCOMMON dist/default/production\coffeemaker.X.production.o
+__Habs1 0 0 ABS 0 abs1 -
+__Hcode 0 0 ABS 0 code -
+__Hinit 0 0 CODE 0 init -
+__Hsfr0 0 0 ABS 0 sfr0 -
+__Hsfr1 0 0 ABS 0 sfr1 -
+__Hsfr2 0 0 ABS 0 sfr2 -
+__Hsfr3 0 0 ABS 0 sfr3 -
+__Htext 0 0 ABS 0 text -
+__Labs1 0 0 ABS 0 abs1 -
+__Lcode 0 0 ABS 0 code -
+__Linit 0 0 CODE 0 init -
+__Lsfr0 0 0 ABS 0 sfr0 -
+__Lsfr1 0 0 ABS 0 sfr1 -
+__Lsfr2 0 0 ABS 0 sfr2 -
+__Lsfr3 0 0 ABS 0 sfr3 -
+__Ltext 0 0 ABS 0 text -
+___bmul 1C46 0 CODE 0 text9 dist/default/production\coffeemaker.X.production.o
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__LcstackBANK1 0 0 ABS 0 cstackBANK1 -
+__LcstackBANK3 0 0 ABS 0 cstackBANK3 -
+__HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+_RA0 28 0 ABS 0 - dist/default/production\coffeemaker.X.production.o
+_RA1 29 0 ABS 0 - dist/default/production\coffeemaker.X.production.o
+_RA2 2A 0 ABS 0 - dist/default/production\coffeemaker.X.production.o
+_RA3 2B 0 ABS 0 - dist/default/production\coffeemaker.X.production.o
+_RA5 2D 0 ABS 0 - dist/default/production\coffeemaker.X.production.o
+_RB0 30 0 ABS 0 - dist/default/production\coffeemaker.X.production.o
+_RB1 31 0 ABS 0 - dist/default/production\coffeemaker.X.production.o
+_RB2 32 0 ABS 0 - dist/default/production\coffeemaker.X.production.o
+_RB4 34 0 ABS 0 - dist/default/production\coffeemaker.X.production.o
+_RB5 35 0 ABS 0 - dist/default/production\coffeemaker.X.production.o
+_RB6 36 0 ABS 0 - dist/default/production\coffeemaker.X.production.o
+_RB7 37 0 ABS 0 - dist/default/production\coffeemaker.X.production.o
+_RD3 43 0 ABS 0 - dist/default/production\coffeemaker.X.production.o
+_RD4 44 0 ABS 0 - dist/default/production\coffeemaker.X.production.o
+_RD5 45 0 ABS 0 - dist/default/production\coffeemaker.X.production.o
+_RD6 46 0 ABS 0 - dist/default/production\coffeemaker.X.production.o
+__S0 1000 0 ABS 0 - -
+__S1 1CA 0 ABS 0 - -
+__S2 0 0 ABS 0 - -
+__S3 0 0 ABS 0 - -
+compare@str1 20 0 BANK0 1 cstackBANK0 dist/default/production\coffeemaker.X.production.o
+compare@str2 74 0 COMMON 1 cstackCOMMON dist/default/production\coffeemaker.X.production.o
+__Lintentry 0 0 CODE 0 intentry -
+__stringtab 6 0 STRING 0 strings dist/default/production\coffeemaker.X.production.o
+reset_vec 0 0 CODE 0 reset_vec C:\Users\saidh\AppData\Local\Temp\xcAsfbo.o
+__pdataBANK2 110 0 BANK2 1 dataBANK2 dist/default/production\coffeemaker.X.production.o
+__pdataBANK3 190 0 BANK3 1 dataBANK3 dist/default/production\coffeemaker.X.production.o
+__size_of___bmul 0 0 ABS 0 - dist/default/production\coffeemaker.X.production.o
+_keypad 1E3A 0 CODE 0 text4 dist/default/production\coffeemaker.X.production.o
+middle@d 23 0 BANK0 1 cstackBANK0 dist/default/production\coffeemaker.X.production.o
+middle@k 2B 0 BANK0 1 cstackBANK0 dist/default/production\coffeemaker.X.production.o
+middle@x 2A 0 BANK0 1 cstackBANK0 dist/default/production\coffeemaker.X.production.o
+_making 5D8 0 CODE 0 text3 dist/default/production\coffeemaker.X.production.o
+_middle 262 0 CODE 0 text1 dist/default/production\coffeemaker.X.production.o
+__end_of_compare 1D9A 0 CODE 0 text6 dist/default/production\coffeemaker.X.production.o
+strin@stri 74 0 COMMON 1 cstackCOMMON dist/default/production\coffeemaker.X.production.o
+__pmaintext 9B4 0 CODE 0 maintext dist/default/production\coffeemaker.X.production.o
+middle@d_129 25 0 BANK0 1 cstackBANK0 dist/default/production\coffeemaker.X.production.o
+middle@d_135 27 0 BANK0 1 cstackBANK0 dist/default/production\coffeemaker.X.production.o
+__Lcommon 0 0 ABS 0 common -
+__Lconfig 0 0 CONFIG 4 config -
+__Hinittext 0 0 ABS 0 inittext -
+main@F1018 110 0 BANK2 1 dataBANK2 dist/default/production\coffeemaker.X.production.o
+main@F1022 190 0 BANK3 1 dataBANK3 dist/default/production\coffeemaker.X.production.o
+main@F1026 1B8 0 BANK3 1 dataBANK3 dist/default/production\coffeemaker.X.production.o
+main@F1031 1C0 0 BANK3 1 dataBANK3 dist/default/production\coffeemaker.X.production.o
+main@arr2 30 0 BANK0 1 cstackBANK0 dist/default/production\coffeemaker.X.production.o
+main@arr3 5E 0 BANK0 1 cstackBANK0 dist/default/production\coffeemaker.X.production.o
+main@flag 6A 0 BANK0 1 cstackBANK0 dist/default/production\coffeemaker.X.production.o
+main@pass 58 0 BANK0 1 cstackBANK0 dist/default/production\coffeemaker.X.production.o
+main@value 66 0 BANK0 1 cstackBANK0 dist/default/production\coffeemaker.X.production.o
+strin@i 7B 0 COMMON 1 cstackCOMMON dist/default/production\coffeemaker.X.production.o
+strin@n 76 0 COMMON 1 cstackCOMMON dist/default/production\coffeemaker.X.production.o
+__size_of_keypad 0 0 ABS 0 - dist/default/production\coffeemaker.X.production.o
+__end_of__stringtab 26 0 STRING 0 strings dist/default/production\coffeemaker.X.production.o
+__Lspace_0 0 0 ABS 0 - -
+__Lspace_1 0 0 ABS 0 - -
+__Lspace_2 0 0 ABS 0 - -
+__Lspace_3 0 0 ABS 0 - -
+__Lspace_4 0 0 ABS 0 - -
+__size_of_making 0 0 ABS 0 - dist/default/production\coffeemaker.X.production.o
+__size_of_middle 0 0 ABS 0 - dist/default/production\coffeemaker.X.production.o
+init_fetch0 1C20 0 CODE 0 inittext dist/default/production\coffeemaker.X.production.o
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__HcstackBANK1 0 0 ABS 0 cstackBANK1 -
+__HcstackBANK3 0 0 ABS 0 cstackBANK3 -
+__Lend_init 0 0 CODE 0 end_init -
+__LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+end_of_initialization FF8 0 CODE 0 cinit dist/default/production\coffeemaker.X.production.o
+__Hintentry 0 0 CODE 0 intentry -
+__Lstrings 0 0 ABS 0 strings -
+__Hreset_vec 0 0 CODE 0 reset_vec -
+__ptext1 262 0 CODE 0 text1 dist/default/production\coffeemaker.X.production.o
+__ptext2 1CA2 0 CODE 0 text2 dist/default/production\coffeemaker.X.production.o
+__ptext3 5D8 0 CODE 0 text3 dist/default/production\coffeemaker.X.production.o
+__ptext4 1E3A 0 CODE 0 text4 dist/default/production\coffeemaker.X.production.o
+__ptext5 1E2 0 CODE 0 text5 dist/default/production\coffeemaker.X.production.o
+__ptext6 1D0A 0 CODE 0 text6 dist/default/production\coffeemaker.X.production.o
+__ptext7 1C70 0 CODE 0 text7 dist/default/production\coffeemaker.X.production.o
+__ptext8 1C0C 0 CODE 0 text8 dist/default/production\coffeemaker.X.production.o
+__ptext9 1C46 0 CODE 0 text9 dist/default/production\coffeemaker.X.production.o
+__Lpowerup 0 0 CODE 0 powerup -
+__Leeprom_data 0 0 EEDATA 3 eeprom_data -
+__Lreset_vec 0 0 CODE 0 reset_vec -
+__end_of__initialization FF8 0 CODE 0 cinit dist/default/production\coffeemaker.X.production.o
+__Lfunctab 0 0 ENTRY 0 functab -
+__pidataBANK2 1D9A 0 CODE 0 idataBANK2 dist/default/production\coffeemaker.X.production.o
+__pidataBANK3 1F6 0 CODE 0 idataBANK3 dist/default/production\coffeemaker.X.production.o
+__Lclrtext 0 0 ABS 0 clrtext -
+__pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/default/production\coffeemaker.X.production.o
+__Hend_init 6 0 CODE 0 end_init -
+init_ram0 1C28 0 CODE 0 inittext dist/default/production\coffeemaker.X.production.o
+__end_of_init 1CA2 0 CODE 0 text7 dist/default/production\coffeemaker.X.production.o
+__end_of_main FC2 0 CODE 0 maintext dist/default/production\coffeemaker.X.production.o
+_PORTC 7 0 ABS 0 - dist/default/production\coffeemaker.X.production.o
+_TRISA 85 0 ABS 0 - dist/default/production\coffeemaker.X.production.o
+_TRISB 86 0 ABS 0 - dist/default/production\coffeemaker.X.production.o
+_TRISC 87 0 ABS 0 - dist/default/production\coffeemaker.X.production.o
+_TRISD 88 0 ABS 0 - dist/default/production\coffeemaker.X.production.o
+_TRISE 89 0 ABS 0 - dist/default/production\coffeemaker.X.production.o
+__end_of_store 1F6 0 CODE 0 text5 dist/default/production\coffeemaker.X.production.o
+__end_of_strin 1D0A 0 CODE 0 text2 dist/default/production\coffeemaker.X.production.o
+__Hram 0 0 ABS 0 ram -
+__Lram 0 0 ABS 0 ram -
+_store 1E2 0 CODE 0 text5 dist/default/production\coffeemaker.X.production.o
+_strin 1CA2 0 CODE 0 text2 dist/default/production\coffeemaker.X.production.o
+__HdataBANK2 0 0 ABS 0 dataBANK2 -
+__HdataBANK3 0 0 ABS 0 dataBANK3 -
+__initialization FC2 0 CODE 0 cinit dist/default/production\coffeemaker.X.production.o
+___bmul@product 72 0 COMMON 1 cstackCOMMON dist/default/production\coffeemaker.X.production.o
+_compare 1D0A 0 CODE 0 text6 dist/default/production\coffeemaker.X.production.o
+__pstrings 6 0 STRING 0 strings dist/default/production\coffeemaker.X.production.o
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+- 1 7E 2
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+cinit 0 7E1 FC2 1F 2
+text1 0 131 262 1BB 2
+text2 0 E51 1CA2 34 2
+text3 0 2EC 5D8 1EE 2
+text4 0 F1D 1E3A E3 2
+text5 0 F1 1E2 A 2
+text6 0 E85 1D0A 48 2
+text7 0 E38 1C70 19 2
+text8 0 E06 1C0C A 2
+text9 0 E23 1C46 15 2
+maintext 0 4DA 9B4 307 2
+cstackCOMMON 1 70 70 E 1
+cstackBANK0 1 20 20 4F 1
+cstackBANK1 1 A0 A0 50 1
+inittext 0 E10 1C20 13 2
+reset_vec 0 0 0 3 2
+idataBANK2 0 ECD 1D9A 50 2
+idataBANK3 0 FB 1F6 36 2
+strings 0 3 6 ED 2
+dataBANK2 1 110 110 50 1
+dataBANK3 1 190 190 3A 1
+# %NOTES Section
+# This section contains data of all the note-psects.  The beginning of the section
+# is indicated by %NOTES. The first line indicates the name and decimal
+# byte-length of the first note-psect, e.g.
+#   $codecov_info_hdr 16
+# Each line that follows contains the byte-data of the psect in hexadecimal as a
+# space-separated list. These lines are limited to 16 bytes of data.
+%NOTES

@@ -1,0 +1,2009 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"278 D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 278: extern volatile unsigned char PORTC __attribute__((address(0x007)));
+[v _PORTC `Vuc ~T0 @X0 0 e@7 ]
+"346
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 346:     struct {
+[s S12 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S12 . RD0 RD1 RD2 RD3 RD4 RD5 RD6 RD7 ]
+"345
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 345: typedef union {
+[u S11 `S12 1 ]
+[n S11 . . ]
+"357
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 357: extern volatile PORTDbits_t PORTDbits __attribute__((address(0x008)));
+[v _PORTDbits `VS11 ~T0 @X0 0 e@8 ]
+"2761
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2761: extern volatile __bit RD4 __attribute__((address(0x44)));
+[v _RD4 `Vb ~T0 @X0 0 e@68 ]
+"2656
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2656: extern volatile __bit RA0 __attribute__((address(0x28)));
+[v _RA0 `Vb ~T0 @X0 0 e@40 ]
+[v F842 `(v ~T0 @X0 1 tf1`ul ]
+"92 D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\pic.h
+[v __delay `JF842 ~T0 @X0 0 e ]
+[p i __delay ]
+"2662 D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2662: extern volatile __bit RA2 __attribute__((address(0x2A)));
+[v _RA2 `Vb ~T0 @X0 0 e@42 ]
+"2671
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2671: extern volatile __bit RA5 __attribute__((address(0x2D)));
+[v _RA5 `Vb ~T0 @X0 0 e@45 ]
+"2665
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2665: extern volatile __bit RA3 __attribute__((address(0x2B)));
+[v _RA3 `Vb ~T0 @X0 0 e@43 ]
+"2764
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2764: extern volatile __bit RD5 __attribute__((address(0x45)));
+[v _RD5 `Vb ~T0 @X0 0 e@69 ]
+"2659
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2659: extern volatile __bit RA1 __attribute__((address(0x29)));
+[v _RA1 `Vb ~T0 @X0 0 e@41 ]
+"2767
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2767: extern volatile __bit RD6 __attribute__((address(0x46)));
+[v _RD6 `Vb ~T0 @X0 0 e@70 ]
+"2758
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2758: extern volatile __bit RD3 __attribute__((address(0x43)));
+[v _RD3 `Vb ~T0 @X0 0 e@67 ]
+"2680
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2680: extern volatile __bit RB2 __attribute__((address(0x32)));
+[v _RB2 `Vb ~T0 @X0 0 e@50 ]
+"2677
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2677: extern volatile __bit RB1 __attribute__((address(0x31)));
+[v _RB1 `Vb ~T0 @X0 0 e@49 ]
+"2674
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2674: extern volatile __bit RB0 __attribute__((address(0x30)));
+[v _RB0 `Vb ~T0 @X0 0 e@48 ]
+"2686
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2686: extern volatile __bit RB4 __attribute__((address(0x34)));
+[v _RB4 `Vb ~T0 @X0 0 e@52 ]
+"2689
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2689: extern volatile __bit RB5 __attribute__((address(0x35)));
+[v _RB5 `Vb ~T0 @X0 0 e@53 ]
+"2692
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2692: extern volatile __bit RB6 __attribute__((address(0x36)));
+[v _RB6 `Vb ~T0 @X0 0 e@54 ]
+"2695
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2695: extern volatile __bit RB7 __attribute__((address(0x37)));
+[v _RB7 `Vb ~T0 @X0 0 e@55 ]
+[p mainexit ]
+"1437
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1437: extern volatile unsigned char TRISC __attribute__((address(0x087)));
+[v _TRISC `Vuc ~T0 @X0 0 e@135 ]
+"1499
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1499: extern volatile unsigned char TRISD __attribute__((address(0x088)));
+[v _TRISD `Vuc ~T0 @X0 0 e@136 ]
+"1375
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1375: extern volatile unsigned char TRISB __attribute__((address(0x086)));
+[v _TRISB `Vuc ~T0 @X0 0 e@134 ]
+"1325
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1325: extern volatile unsigned char TRISA __attribute__((address(0x085)));
+[v _TRISA `Vuc ~T0 @X0 0 e@133 ]
+"1561
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1561: extern volatile unsigned char TRISE __attribute__((address(0x089)));
+[v _TRISE `Vuc ~T0 @X0 0 e@137 ]
+"408
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 408:     struct {
+[s S14 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S14 . RE0 RE1 RE2 ]
+"407
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 407: typedef union {
+[u S13 `S14 1 ]
+[n S13 . . ]
+"414
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 414: extern volatile PORTEbits_t PORTEbits __attribute__((address(0x009)));
+[v _PORTEbits `VS13 ~T0 @X0 0 e@9 ]
+"54 D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 54: __asm("INDF equ 00h");
+[; <" INDF equ 00h ;# ">
+"61
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 61: __asm("TMR0 equ 01h");
+[; <" TMR0 equ 01h ;# ">
+"68
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 68: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"75
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 75: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"161
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 161: __asm("FSR equ 04h");
+[; <" FSR equ 04h ;# ">
+"168
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 168: __asm("PORTA equ 05h");
+[; <" PORTA equ 05h ;# ">
+"218
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 218: __asm("PORTB equ 06h");
+[; <" PORTB equ 06h ;# ">
+"280
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 280: __asm("PORTC equ 07h");
+[; <" PORTC equ 07h ;# ">
+"342
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 342: __asm("PORTD equ 08h");
+[; <" PORTD equ 08h ;# ">
+"404
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 404: __asm("PORTE equ 09h");
+[; <" PORTE equ 09h ;# ">
+"436
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 436: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"456
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 456: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"534
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 534: __asm("PIR1 equ 0Ch");
+[; <" PIR1 equ 0Ch ;# ">
+"596
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 596: __asm("PIR2 equ 0Dh");
+[; <" PIR2 equ 0Dh ;# ">
+"636
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 636: __asm("TMR1 equ 0Eh");
+[; <" TMR1 equ 0Eh ;# ">
+"643
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 643: __asm("TMR1L equ 0Eh");
+[; <" TMR1L equ 0Eh ;# ">
+"650
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 650: __asm("TMR1H equ 0Fh");
+[; <" TMR1H equ 0Fh ;# ">
+"657
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 657: __asm("T1CON equ 010h");
+[; <" T1CON equ 010h ;# ">
+"732
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 732: __asm("TMR2 equ 011h");
+[; <" TMR2 equ 011h ;# ">
+"739
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 739: __asm("T2CON equ 012h");
+[; <" T2CON equ 012h ;# ">
+"810
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 810: __asm("SSPBUF equ 013h");
+[; <" SSPBUF equ 013h ;# ">
+"817
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 817: __asm("SSPCON equ 014h");
+[; <" SSPCON equ 014h ;# ">
+"887
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 887: __asm("CCPR1 equ 015h");
+[; <" CCPR1 equ 015h ;# ">
+"894
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 894: __asm("CCPR1L equ 015h");
+[; <" CCPR1L equ 015h ;# ">
+"901
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 901: __asm("CCPR1H equ 016h");
+[; <" CCPR1H equ 016h ;# ">
+"908
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 908: __asm("CCP1CON equ 017h");
+[; <" CCP1CON equ 017h ;# ">
+"966
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 966: __asm("RCSTA equ 018h");
+[; <" RCSTA equ 018h ;# ">
+"1061
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1061: __asm("TXREG equ 019h");
+[; <" TXREG equ 019h ;# ">
+"1068
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1068: __asm("RCREG equ 01Ah");
+[; <" RCREG equ 01Ah ;# ">
+"1075
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1075: __asm("CCPR2 equ 01Bh");
+[; <" CCPR2 equ 01Bh ;# ">
+"1082
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1082: __asm("CCPR2L equ 01Bh");
+[; <" CCPR2L equ 01Bh ;# ">
+"1089
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1089: __asm("CCPR2H equ 01Ch");
+[; <" CCPR2H equ 01Ch ;# ">
+"1096
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1096: __asm("CCP2CON equ 01Dh");
+[; <" CCP2CON equ 01Dh ;# ">
+"1154
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1154: __asm("ADRESH equ 01Eh");
+[; <" ADRESH equ 01Eh ;# ">
+"1161
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1161: __asm("ADCON0 equ 01Fh");
+[; <" ADCON0 equ 01Fh ;# ">
+"1257
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1257: __asm("OPTION_REG equ 081h");
+[; <" OPTION_REG equ 081h ;# ">
+"1327
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1327: __asm("TRISA equ 085h");
+[; <" TRISA equ 085h ;# ">
+"1377
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1377: __asm("TRISB equ 086h");
+[; <" TRISB equ 086h ;# ">
+"1439
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1439: __asm("TRISC equ 087h");
+[; <" TRISC equ 087h ;# ">
+"1501
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1501: __asm("TRISD equ 088h");
+[; <" TRISD equ 088h ;# ">
+"1563
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1563: __asm("TRISE equ 089h");
+[; <" TRISE equ 089h ;# ">
+"1620
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1620: __asm("PIE1 equ 08Ch");
+[; <" PIE1 equ 08Ch ;# ">
+"1682
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1682: __asm("PIE2 equ 08Dh");
+[; <" PIE2 equ 08Dh ;# ">
+"1722
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1722: __asm("PCON equ 08Eh");
+[; <" PCON equ 08Eh ;# ">
+"1756
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1756: __asm("SSPCON2 equ 091h");
+[; <" SSPCON2 equ 091h ;# ">
+"1818
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1818: __asm("PR2 equ 092h");
+[; <" PR2 equ 092h ;# ">
+"1825
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1825: __asm("SSPADD equ 093h");
+[; <" SSPADD equ 093h ;# ">
+"1832
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1832: __asm("SSPSTAT equ 094h");
+[; <" SSPSTAT equ 094h ;# ">
+"2001
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2001: __asm("TXSTA equ 098h");
+[; <" TXSTA equ 098h ;# ">
+"2082
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2082: __asm("SPBRG equ 099h");
+[; <" SPBRG equ 099h ;# ">
+"2089
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2089: __asm("CMCON equ 09Ch");
+[; <" CMCON equ 09Ch ;# ">
+"2159
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2159: __asm("CVRCON equ 09Dh");
+[; <" CVRCON equ 09Dh ;# ">
+"2224
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2224: __asm("ADRESL equ 09Eh");
+[; <" ADRESL equ 09Eh ;# ">
+"2231
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2231: __asm("ADCON1 equ 09Fh");
+[; <" ADCON1 equ 09Fh ;# ">
+"2290
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2290: __asm("EEDATA equ 010Ch");
+[; <" EEDATA equ 010Ch ;# ">
+"2297
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2297: __asm("EEADR equ 010Dh");
+[; <" EEADR equ 010Dh ;# ">
+"2304
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2304: __asm("EEDATH equ 010Eh");
+[; <" EEDATH equ 010Eh ;# ">
+"2311
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2311: __asm("EEADRH equ 010Fh");
+[; <" EEADRH equ 010Fh ;# ">
+"2318
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2318: __asm("EECON1 equ 018Ch");
+[; <" EECON1 equ 018Ch ;# ">
+"2363
+[; ;D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2363: __asm("EECON2 equ 018Dh");
+[; <" EECON2 equ 018Dh ;# ">
+"6 coffeemaker.c
+[p x FOSC  =  HS         ]
+"7
+[p x WDTE  =  OFF        ]
+"8
+[p x PWRTE  =  OFF       ]
+"9
+[p x BOREN  =  OFF        ]
+"10
+[p x LVP  =  ON          ]
+"11
+[p x CPD  =  OFF         ]
+"12
+[p x WRT  =  OFF         ]
+"13
+[p x CP  =  OFF  ]
+"41
+[; ;coffeemaker.c: 41: void store(unsigned char data)
+[v _store `(v ~T0 @X0 1 ef1`uc ]
+"42
+[; ;coffeemaker.c: 42: {
+{
+[e :U _store ]
+"41
+[; ;coffeemaker.c: 41: void store(unsigned char data)
+[v _data `uc ~T0 @X0 1 r1 ]
+"42
+[; ;coffeemaker.c: 42: {
+[f ]
+"43
+[; ;coffeemaker.c: 43:     PORTC=data;
+[e = _PORTC _data ]
+"44
+[; ;coffeemaker.c: 44:     PORTDbits.RD0=1;
+[e = . . _PORTDbits 0 0 -> -> 1 `i `uc ]
+"45
+[; ;coffeemaker.c: 45:     PORTDbits.RD1=0;
+[e = . . _PORTDbits 0 1 -> -> 0 `i `uc ]
+"46
+[; ;coffeemaker.c: 46:     PORTDbits.RD2=1;
+[e = . . _PORTDbits 0 2 -> -> 1 `i `uc ]
+"47
+[; ;coffeemaker.c: 47:     PORTDbits.RD2=0;
+[e = . . _PORTDbits 0 2 -> -> 0 `i `uc ]
+"48
+[; ;coffeemaker.c: 48: }
+[e :UE 96 ]
+}
+"52
+[; ;coffeemaker.c: 52: void instruct(unsigned char inst)
+[v _instruct `(v ~T0 @X0 1 ef1`uc ]
+"53
+[; ;coffeemaker.c: 53: {
+{
+[e :U _instruct ]
+"52
+[; ;coffeemaker.c: 52: void instruct(unsigned char inst)
+[v _inst `uc ~T0 @X0 1 r1 ]
+"53
+[; ;coffeemaker.c: 53: {
+[f ]
+"54
+[; ;coffeemaker.c: 54:     PORTC=inst;
+[e = _PORTC _inst ]
+"55
+[; ;coffeemaker.c: 55:     PORTDbits.RD0=0;
+[e = . . _PORTDbits 0 0 -> -> 0 `i `uc ]
+"56
+[; ;coffeemaker.c: 56:     PORTDbits.RD1=0;
+[e = . . _PORTDbits 0 1 -> -> 0 `i `uc ]
+"57
+[; ;coffeemaker.c: 57:     PORTDbits.RD2=1;
+[e = . . _PORTDbits 0 2 -> -> 1 `i `uc ]
+"58
+[; ;coffeemaker.c: 58:     PORTDbits.RD2=0;
+[e = . . _PORTDbits 0 2 -> -> 0 `i `uc ]
+"59
+[; ;coffeemaker.c: 59: }
+[e :UE 97 ]
+}
+"63
+[; ;coffeemaker.c: 63: void strin (char *stri,int n)
+[v _strin `(v ~T0 @X0 1 ef2`*uc`i ]
+"64
+[; ;coffeemaker.c: 64: {
+{
+[e :U _strin ]
+"63
+[; ;coffeemaker.c: 63: void strin (char *stri,int n)
+[v _stri `*uc ~T0 @X0 1 r1 ]
+[v _n `i ~T0 @X0 1 r2 ]
+"64
+[; ;coffeemaker.c: 64: {
+[f ]
+"65
+[; ;coffeemaker.c: 65:     int i;
+[v _i `i ~T0 @X0 1 a ]
+"66
+[; ;coffeemaker.c: 66:     for (i=0;i<n;i++)
+{
+[e = _i -> 0 `i ]
+[e $U 102  ]
+[e :U 99 ]
+"67
+[; ;coffeemaker.c: 67:     {
+{
+"68
+[; ;coffeemaker.c: 68:         store(stri[i]);
+[e ( _store (1 -> *U + _stri * -> _i `x -> -> # *U _stri `i `x `uc ]
+"69
+[; ;coffeemaker.c: 69:     }
+}
+[e ++ _i -> 1 `i ]
+[e :U 102 ]
+[e $ < _i _n 99  ]
+[e :U 100 ]
+}
+"70
+[; ;coffeemaker.c: 70: }
+[e :UE 98 ]
+}
+"74
+[; ;coffeemaker.c: 74: void init()
+[v _init `(v ~T0 @X0 1 ef ]
+"75
+[; ;coffeemaker.c: 75: {
+{
+[e :U _init ]
+[f ]
+"76
+[; ;coffeemaker.c: 76:     instruct(0x38);
+[e ( _instruct (1 -> -> 56 `i `uc ]
+"77
+[; ;coffeemaker.c: 77:     instruct(0x06);
+[e ( _instruct (1 -> -> 6 `i `uc ]
+"78
+[; ;coffeemaker.c: 78:     instruct(0x0C);
+[e ( _instruct (1 -> -> 12 `i `uc ]
+"79
+[; ;coffeemaker.c: 79:     instruct(0x01);
+[e ( _instruct (1 -> -> 1 `i `uc ]
+"80
+[; ;coffeemaker.c: 80: }
+[e :UE 103 ]
+}
+"81
+[; ;coffeemaker.c: 81: void making(char t)
+[v _making `(v ~T0 @X0 1 ef1`uc ]
+"82
+[; ;coffeemaker.c: 82: {
+{
+[e :U _making ]
+"81
+[; ;coffeemaker.c: 81: void making(char t)
+[v _t `uc ~T0 @X0 1 r1 ]
+"82
+[; ;coffeemaker.c: 82: {
+[f ]
+"83
+[; ;coffeemaker.c: 83:     unsigned int i;
+[v _i `ui ~T0 @X0 1 a ]
+"84
+[; ;coffeemaker.c: 84:     unsigned int j;
+[v _j `ui ~T0 @X0 1 a ]
+"85
+[; ;coffeemaker.c: 85:     if(t =='1')
+[e $ ! == -> _t `ui -> 49 `ui 105  ]
+"86
+[; ;coffeemaker.c: 86:    {
+{
+"87
+[; ;coffeemaker.c: 87:         RD4 = 1;
+[e = _RD4 -> -> 1 `i `b ]
+"88
+[; ;coffeemaker.c: 88:         for(i=0;i<50;i++)
+{
+[e = _i -> -> 0 `i `ui ]
+[e $ < _i -> -> 50 `i `ui 106  ]
+[e $U 107  ]
+[e :U 106 ]
+"89
+[; ;coffeemaker.c: 89:         {
+{
+"90
+[; ;coffeemaker.c: 90:            RA0 = 1;
+[e = _RA0 -> -> 1 `i `b ]
+"91
+[; ;coffeemaker.c: 91:           _delay((unsigned long)((800)*(1000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 800 `i `d / -> -> 1000000 `l `d .4000000.0 `ul ]
+"92
+[; ;coffeemaker.c: 92:            RA0 = 0;
+[e = _RA0 -> -> 0 `i `b ]
+"93
+[; ;coffeemaker.c: 93:           _delay((unsigned long)((19200)*(1000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 19200 `i `d / -> -> 1000000 `l `d .4000000.0 `ul ]
+"94
+[; ;coffeemaker.c: 94:         }
+}
+[e ++ _i -> -> 1 `i `ui ]
+[e $ < _i -> -> 50 `i `ui 106  ]
+[e :U 107 ]
+}
+"95
+[; ;coffeemaker.c: 95:         _delay((unsigned long)((2000)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 2000 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"96
+[; ;coffeemaker.c: 96:         for(j=0;j<50;j++)
+{
+[e = _j -> -> 0 `i `ui ]
+[e $ < _j -> -> 50 `i `ui 109  ]
+[e $U 110  ]
+[e :U 109 ]
+"97
+[; ;coffeemaker.c: 97:         {
+{
+"98
+[; ;coffeemaker.c: 98:            RA0 = 1;
+[e = _RA0 -> -> 1 `i `b ]
+"99
+[; ;coffeemaker.c: 99:            _delay((unsigned long)((1500)*(1000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 1500 `i `d / -> -> 1000000 `l `d .4000000.0 `ul ]
+"100
+[; ;coffeemaker.c: 100:            RA0 = 0;
+[e = _RA0 -> -> 0 `i `b ]
+"101
+[; ;coffeemaker.c: 101:            _delay((unsigned long)((18500)*(1000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 18500 `i `d / -> -> 1000000 `l `d .4000000.0 `ul ]
+"102
+[; ;coffeemaker.c: 102:         }
+}
+[e ++ _j -> -> 1 `i `ui ]
+[e $ < _j -> -> 50 `i `ui 109  ]
+[e :U 110 ]
+}
+"103
+[; ;coffeemaker.c: 103:         for(i=0;i<50;i++)
+{
+[e = _i -> -> 0 `i `ui ]
+[e $ < _i -> -> 50 `i `ui 112  ]
+[e $U 113  ]
+[e :U 112 ]
+"104
+[; ;coffeemaker.c: 104:         {
+{
+"105
+[; ;coffeemaker.c: 105:            RA2 = 1;
+[e = _RA2 -> -> 1 `i `b ]
+"106
+[; ;coffeemaker.c: 106:           _delay((unsigned long)((800)*(1000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 800 `i `d / -> -> 1000000 `l `d .4000000.0 `ul ]
+"107
+[; ;coffeemaker.c: 107:            RA2 = 0;
+[e = _RA2 -> -> 0 `i `b ]
+"108
+[; ;coffeemaker.c: 108:           _delay((unsigned long)((19200)*(1000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 19200 `i `d / -> -> 1000000 `l `d .4000000.0 `ul ]
+"109
+[; ;coffeemaker.c: 109:         }
+}
+[e ++ _i -> -> 1 `i `ui ]
+[e $ < _i -> -> 50 `i `ui 112  ]
+[e :U 113 ]
+}
+"110
+[; ;coffeemaker.c: 110:         _delay((unsigned long)((3000)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 3000 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"111
+[; ;coffeemaker.c: 111:         for(j=0;j<50;j++)
+{
+[e = _j -> -> 0 `i `ui ]
+[e $ < _j -> -> 50 `i `ui 115  ]
+[e $U 116  ]
+[e :U 115 ]
+"112
+[; ;coffeemaker.c: 112:         {
+{
+"113
+[; ;coffeemaker.c: 113:            RA2 = 1;
+[e = _RA2 -> -> 1 `i `b ]
+"114
+[; ;coffeemaker.c: 114:            _delay((unsigned long)((1500)*(1000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 1500 `i `d / -> -> 1000000 `l `d .4000000.0 `ul ]
+"115
+[; ;coffeemaker.c: 115:            RA2 = 0;
+[e = _RA2 -> -> 0 `i `b ]
+"116
+[; ;coffeemaker.c: 116:            _delay((unsigned long)((18500)*(1000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 18500 `i `d / -> -> 1000000 `l `d .4000000.0 `ul ]
+"117
+[; ;coffeemaker.c: 117:         }
+}
+[e ++ _j -> -> 1 `i `ui ]
+[e $ < _j -> -> 50 `i `ui 115  ]
+[e :U 116 ]
+}
+"118
+[; ;coffeemaker.c: 118:         RA5=1;
+[e = _RA5 -> -> 1 `i `b ]
+"119
+[; ;coffeemaker.c: 119:         _delay((unsigned long)((2000)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 2000 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"120
+[; ;coffeemaker.c: 120:         RA5 =0;
+[e = _RA5 -> -> 0 `i `b ]
+"121
+[; ;coffeemaker.c: 121:         for(i=0;i<50;i++)
+{
+[e = _i -> -> 0 `i `ui ]
+[e $ < _i -> -> 50 `i `ui 118  ]
+[e $U 119  ]
+[e :U 118 ]
+"122
+[; ;coffeemaker.c: 122:         {
+{
+"123
+[; ;coffeemaker.c: 123:           RA3 = 1;
+[e = _RA3 -> -> 1 `i `b ]
+"124
+[; ;coffeemaker.c: 124:           _delay((unsigned long)((800)*(1000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 800 `i `d / -> -> 1000000 `l `d .4000000.0 `ul ]
+"125
+[; ;coffeemaker.c: 125:           RA3 = 0;
+[e = _RA3 -> -> 0 `i `b ]
+"126
+[; ;coffeemaker.c: 126:           _delay((unsigned long)((19200)*(1000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 19200 `i `d / -> -> 1000000 `l `d .4000000.0 `ul ]
+"127
+[; ;coffeemaker.c: 127:         }
+}
+[e ++ _i -> -> 1 `i `ui ]
+[e $ < _i -> -> 50 `i `ui 118  ]
+[e :U 119 ]
+}
+"128
+[; ;coffeemaker.c: 128:         _delay((unsigned long)((5000)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 5000 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"129
+[; ;coffeemaker.c: 129:         for(j=0;j<50;j++)
+{
+[e = _j -> -> 0 `i `ui ]
+[e $ < _j -> -> 50 `i `ui 121  ]
+[e $U 122  ]
+[e :U 121 ]
+"130
+[; ;coffeemaker.c: 130:         {
+{
+"131
+[; ;coffeemaker.c: 131:            RA3 = 1;
+[e = _RA3 -> -> 1 `i `b ]
+"132
+[; ;coffeemaker.c: 132:            _delay((unsigned long)((1500)*(1000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 1500 `i `d / -> -> 1000000 `l `d .4000000.0 `ul ]
+"133
+[; ;coffeemaker.c: 133:            RA3 = 0;
+[e = _RA3 -> -> 0 `i `b ]
+"134
+[; ;coffeemaker.c: 134:            _delay((unsigned long)((18500)*(1000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 18500 `i `d / -> -> 1000000 `l `d .4000000.0 `ul ]
+"135
+[; ;coffeemaker.c: 135:         }
+}
+[e ++ _j -> -> 1 `i `ui ]
+[e $ < _j -> -> 50 `i `ui 121  ]
+[e :U 122 ]
+}
+"136
+[; ;coffeemaker.c: 136:         RD4 = 0;
+[e = _RD4 -> -> 0 `i `b ]
+"139
+[; ;coffeemaker.c: 139:    }
+}
+[e $U 124  ]
+"140
+[; ;coffeemaker.c: 140:    else if(t =='2')
+[e :U 105 ]
+[e $ ! == -> _t `ui -> 50 `ui 125  ]
+"141
+[; ;coffeemaker.c: 141:    {
+{
+"142
+[; ;coffeemaker.c: 142:        RD5 = 1;
+[e = _RD5 -> -> 1 `i `b ]
+"143
+[; ;coffeemaker.c: 143:         for(i=0;i<50;i++)
+{
+[e = _i -> -> 0 `i `ui ]
+[e $ < _i -> -> 50 `i `ui 126  ]
+[e $U 127  ]
+[e :U 126 ]
+"144
+[; ;coffeemaker.c: 144:         {
+{
+"145
+[; ;coffeemaker.c: 145:            RA1 = 1;
+[e = _RA1 -> -> 1 `i `b ]
+"146
+[; ;coffeemaker.c: 146:           _delay((unsigned long)((800)*(1000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 800 `i `d / -> -> 1000000 `l `d .4000000.0 `ul ]
+"147
+[; ;coffeemaker.c: 147:            RA1 = 0;
+[e = _RA1 -> -> 0 `i `b ]
+"148
+[; ;coffeemaker.c: 148:           _delay((unsigned long)((19200)*(1000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 19200 `i `d / -> -> 1000000 `l `d .4000000.0 `ul ]
+"149
+[; ;coffeemaker.c: 149:         }
+}
+[e ++ _i -> -> 1 `i `ui ]
+[e $ < _i -> -> 50 `i `ui 126  ]
+[e :U 127 ]
+}
+"150
+[; ;coffeemaker.c: 150:         _delay((unsigned long)((5000)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 5000 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"151
+[; ;coffeemaker.c: 151:         for(j=0;j<50;j++)
+{
+[e = _j -> -> 0 `i `ui ]
+[e $ < _j -> -> 50 `i `ui 129  ]
+[e $U 130  ]
+[e :U 129 ]
+"152
+[; ;coffeemaker.c: 152:         {
+{
+"153
+[; ;coffeemaker.c: 153:            RA1 = 1;
+[e = _RA1 -> -> 1 `i `b ]
+"154
+[; ;coffeemaker.c: 154:            _delay((unsigned long)((1500)*(1000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 1500 `i `d / -> -> 1000000 `l `d .4000000.0 `ul ]
+"155
+[; ;coffeemaker.c: 155:            RA1 = 0;
+[e = _RA1 -> -> 0 `i `b ]
+"156
+[; ;coffeemaker.c: 156:            _delay((unsigned long)((18500)*(1000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 18500 `i `d / -> -> 1000000 `l `d .4000000.0 `ul ]
+"157
+[; ;coffeemaker.c: 157:         }
+}
+[e ++ _j -> -> 1 `i `ui ]
+[e $ < _j -> -> 50 `i `ui 129  ]
+[e :U 130 ]
+}
+"158
+[; ;coffeemaker.c: 158:         RD5=0;
+[e = _RD5 -> -> 0 `i `b ]
+"160
+[; ;coffeemaker.c: 160:    }
+}
+[e $U 132  ]
+"161
+[; ;coffeemaker.c: 161:    else if(t =='3')
+[e :U 125 ]
+[e $ ! == -> _t `ui -> 51 `ui 133  ]
+"162
+[; ;coffeemaker.c: 162:    {
+{
+"163
+[; ;coffeemaker.c: 163:        RD6=1;
+[e = _RD6 -> -> 1 `i `b ]
+"164
+[; ;coffeemaker.c: 164:         for(i=0;i<50;i++)
+{
+[e = _i -> -> 0 `i `ui ]
+[e $ < _i -> -> 50 `i `ui 134  ]
+[e $U 135  ]
+[e :U 134 ]
+"165
+[; ;coffeemaker.c: 165:         {
+{
+"166
+[; ;coffeemaker.c: 166:            RD3 = 1;
+[e = _RD3 -> -> 1 `i `b ]
+"167
+[; ;coffeemaker.c: 167:           _delay((unsigned long)((800)*(1000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 800 `i `d / -> -> 1000000 `l `d .4000000.0 `ul ]
+"168
+[; ;coffeemaker.c: 168:           RD3 = 0;
+[e = _RD3 -> -> 0 `i `b ]
+"169
+[; ;coffeemaker.c: 169:           _delay((unsigned long)((19200)*(1000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 19200 `i `d / -> -> 1000000 `l `d .4000000.0 `ul ]
+"170
+[; ;coffeemaker.c: 170:         }
+}
+[e ++ _i -> -> 1 `i `ui ]
+[e $ < _i -> -> 50 `i `ui 134  ]
+[e :U 135 ]
+}
+"171
+[; ;coffeemaker.c: 171:         _delay((unsigned long)((5000)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 5000 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"172
+[; ;coffeemaker.c: 172:         for(j=0;j<50;j++)
+{
+[e = _j -> -> 0 `i `ui ]
+[e $ < _j -> -> 50 `i `ui 137  ]
+[e $U 138  ]
+[e :U 137 ]
+"173
+[; ;coffeemaker.c: 173:         {
+{
+"174
+[; ;coffeemaker.c: 174:            RD3 = 1;
+[e = _RD3 -> -> 1 `i `b ]
+"175
+[; ;coffeemaker.c: 175:            _delay((unsigned long)((1500)*(1000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 1500 `i `d / -> -> 1000000 `l `d .4000000.0 `ul ]
+"176
+[; ;coffeemaker.c: 176:            RD3 = 0;
+[e = _RD3 -> -> 0 `i `b ]
+"177
+[; ;coffeemaker.c: 177:            _delay((unsigned long)((18500)*(1000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 18500 `i `d / -> -> 1000000 `l `d .4000000.0 `ul ]
+"178
+[; ;coffeemaker.c: 178:         }
+}
+[e ++ _j -> -> 1 `i `ui ]
+[e $ < _j -> -> 50 `i `ui 137  ]
+[e :U 138 ]
+}
+"180
+[; ;coffeemaker.c: 180:         RD6=0;
+[e = _RD6 -> -> 0 `i `b ]
+"182
+[; ;coffeemaker.c: 182:    }
+}
+[e :U 133 ]
+[e :U 132 ]
+[e :U 124 ]
+"184
+[; ;coffeemaker.c: 184: }
+[e :UE 104 ]
+}
+"187
+[; ;coffeemaker.c: 187: char keypad()
+[v _keypad `(uc ~T0 @X0 1 ef ]
+"188
+[; ;coffeemaker.c: 188: {
+{
+[e :U _keypad ]
+[f ]
+"189
+[; ;coffeemaker.c: 189:     while(1)
+[e :U 142 ]
+"190
+[; ;coffeemaker.c: 190:     {
+{
+"191
+[; ;coffeemaker.c: 191:       RB2=1;RB1=0;RB0=0;
+[e = _RB2 -> -> 1 `i `b ]
+[e = _RB1 -> -> 0 `i `b ]
+[e = _RB0 -> -> 0 `i `b ]
+"192
+[; ;coffeemaker.c: 192:       if (RB4==1)
+[e $ ! == -> _RB4 `i -> 1 `i 144  ]
+"193
+[; ;coffeemaker.c: 193:        {
+{
+"194
+[; ;coffeemaker.c: 194:          store('1');
+[e ( _store (1 -> -> 49 `ui `uc ]
+"195
+[; ;coffeemaker.c: 195:          while(RB4==1);
+[e $U 145  ]
+[e :U 146 ]
+[e :U 145 ]
+[e $ == -> _RB4 `i -> 1 `i 146  ]
+[e :U 147 ]
+"196
+[; ;coffeemaker.c: 196:          return '1';
+[e ) -> -> 49 `ui `uc ]
+[e $UE 140  ]
+"197
+[; ;coffeemaker.c: 197:        }
+}
+[e :U 144 ]
+"198
+[; ;coffeemaker.c: 198:       if (RB5==1)
+[e $ ! == -> _RB5 `i -> 1 `i 148  ]
+"199
+[; ;coffeemaker.c: 199:        {
+{
+"200
+[; ;coffeemaker.c: 200:          store('4');
+[e ( _store (1 -> -> 52 `ui `uc ]
+"201
+[; ;coffeemaker.c: 201:          while(RB5==1);
+[e $U 149  ]
+[e :U 150 ]
+[e :U 149 ]
+[e $ == -> _RB5 `i -> 1 `i 150  ]
+[e :U 151 ]
+"202
+[; ;coffeemaker.c: 202:          return '4';
+[e ) -> -> 52 `ui `uc ]
+[e $UE 140  ]
+"203
+[; ;coffeemaker.c: 203:        }
+}
+[e :U 148 ]
+"204
+[; ;coffeemaker.c: 204:       if (RB6==1)
+[e $ ! == -> _RB6 `i -> 1 `i 152  ]
+"205
+[; ;coffeemaker.c: 205:        {
+{
+"206
+[; ;coffeemaker.c: 206:          store('7');
+[e ( _store (1 -> -> 55 `ui `uc ]
+"207
+[; ;coffeemaker.c: 207:          while(RB6==1);
+[e $U 153  ]
+[e :U 154 ]
+[e :U 153 ]
+[e $ == -> _RB6 `i -> 1 `i 154  ]
+[e :U 155 ]
+"208
+[; ;coffeemaker.c: 208:          return '7';
+[e ) -> -> 55 `ui `uc ]
+[e $UE 140  ]
+"209
+[; ;coffeemaker.c: 209:        }
+}
+[e :U 152 ]
+"210
+[; ;coffeemaker.c: 210:        if (RB7==1)
+[e $ ! == -> _RB7 `i -> 1 `i 156  ]
+"211
+[; ;coffeemaker.c: 211:        {
+{
+"212
+[; ;coffeemaker.c: 212:          store('*');
+[e ( _store (1 -> -> 42 `ui `uc ]
+"213
+[; ;coffeemaker.c: 213:          while(RB7==1);
+[e $U 157  ]
+[e :U 158 ]
+[e :U 157 ]
+[e $ == -> _RB7 `i -> 1 `i 158  ]
+[e :U 159 ]
+"214
+[; ;coffeemaker.c: 214:          return '*';
+[e ) -> -> 42 `ui `uc ]
+[e $UE 140  ]
+"215
+[; ;coffeemaker.c: 215:        }
+}
+[e :U 156 ]
+"216
+[; ;coffeemaker.c: 216:        RB2=0;RB1=1;RB0=0;
+[e = _RB2 -> -> 0 `i `b ]
+[e = _RB1 -> -> 1 `i `b ]
+[e = _RB0 -> -> 0 `i `b ]
+"217
+[; ;coffeemaker.c: 217:        if (RB4==1)
+[e $ ! == -> _RB4 `i -> 1 `i 160  ]
+"218
+[; ;coffeemaker.c: 218:        {
+{
+"219
+[; ;coffeemaker.c: 219:          store('2');
+[e ( _store (1 -> -> 50 `ui `uc ]
+"220
+[; ;coffeemaker.c: 220:          while(RB4==1);
+[e $U 161  ]
+[e :U 162 ]
+[e :U 161 ]
+[e $ == -> _RB4 `i -> 1 `i 162  ]
+[e :U 163 ]
+"221
+[; ;coffeemaker.c: 221:          return '2';
+[e ) -> -> 50 `ui `uc ]
+[e $UE 140  ]
+"222
+[; ;coffeemaker.c: 222:        }
+}
+[e :U 160 ]
+"223
+[; ;coffeemaker.c: 223:        if (RB5==1)
+[e $ ! == -> _RB5 `i -> 1 `i 164  ]
+"224
+[; ;coffeemaker.c: 224:        {
+{
+"225
+[; ;coffeemaker.c: 225:          store('5');
+[e ( _store (1 -> -> 53 `ui `uc ]
+"226
+[; ;coffeemaker.c: 226:          while(RB5==1);
+[e $U 165  ]
+[e :U 166 ]
+[e :U 165 ]
+[e $ == -> _RB5 `i -> 1 `i 166  ]
+[e :U 167 ]
+"227
+[; ;coffeemaker.c: 227:          return '5';
+[e ) -> -> 53 `ui `uc ]
+[e $UE 140  ]
+"228
+[; ;coffeemaker.c: 228:        }
+}
+[e :U 164 ]
+"229
+[; ;coffeemaker.c: 229:        if (RB6==1)
+[e $ ! == -> _RB6 `i -> 1 `i 168  ]
+"230
+[; ;coffeemaker.c: 230:        {
+{
+"231
+[; ;coffeemaker.c: 231:          store('8');
+[e ( _store (1 -> -> 56 `ui `uc ]
+"232
+[; ;coffeemaker.c: 232:          while(RB6==1);
+[e $U 169  ]
+[e :U 170 ]
+[e :U 169 ]
+[e $ == -> _RB6 `i -> 1 `i 170  ]
+[e :U 171 ]
+"233
+[; ;coffeemaker.c: 233:          return '8';
+[e ) -> -> 56 `ui `uc ]
+[e $UE 140  ]
+"234
+[; ;coffeemaker.c: 234:        }
+}
+[e :U 168 ]
+"235
+[; ;coffeemaker.c: 235:        if (RB7==1)
+[e $ ! == -> _RB7 `i -> 1 `i 172  ]
+"236
+[; ;coffeemaker.c: 236:        {
+{
+"237
+[; ;coffeemaker.c: 237:          store('0');
+[e ( _store (1 -> -> 48 `ui `uc ]
+"238
+[; ;coffeemaker.c: 238:          while(RB7==1);
+[e $U 173  ]
+[e :U 174 ]
+[e :U 173 ]
+[e $ == -> _RB7 `i -> 1 `i 174  ]
+[e :U 175 ]
+"239
+[; ;coffeemaker.c: 239:          return '0';
+[e ) -> -> 48 `ui `uc ]
+[e $UE 140  ]
+"240
+[; ;coffeemaker.c: 240:        }
+}
+[e :U 172 ]
+"241
+[; ;coffeemaker.c: 241:        RB2=0;RB1=0;RB0=1;
+[e = _RB2 -> -> 0 `i `b ]
+[e = _RB1 -> -> 0 `i `b ]
+[e = _RB0 -> -> 1 `i `b ]
+"242
+[; ;coffeemaker.c: 242:        if (RB4==1)
+[e $ ! == -> _RB4 `i -> 1 `i 176  ]
+"243
+[; ;coffeemaker.c: 243:        {
+{
+"244
+[; ;coffeemaker.c: 244:          store('3');
+[e ( _store (1 -> -> 51 `ui `uc ]
+"245
+[; ;coffeemaker.c: 245:          while(RB4==1);
+[e $U 177  ]
+[e :U 178 ]
+[e :U 177 ]
+[e $ == -> _RB4 `i -> 1 `i 178  ]
+[e :U 179 ]
+"246
+[; ;coffeemaker.c: 246:          return '3';
+[e ) -> -> 51 `ui `uc ]
+[e $UE 140  ]
+"247
+[; ;coffeemaker.c: 247:        }
+}
+[e :U 176 ]
+"248
+[; ;coffeemaker.c: 248:        if (RB5==1)
+[e $ ! == -> _RB5 `i -> 1 `i 180  ]
+"249
+[; ;coffeemaker.c: 249:        {
+{
+"250
+[; ;coffeemaker.c: 250:          store('6');
+[e ( _store (1 -> -> 54 `ui `uc ]
+"251
+[; ;coffeemaker.c: 251:          while(RB5==1);
+[e $U 181  ]
+[e :U 182 ]
+[e :U 181 ]
+[e $ == -> _RB5 `i -> 1 `i 182  ]
+[e :U 183 ]
+"252
+[; ;coffeemaker.c: 252:          return '6';
+[e ) -> -> 54 `ui `uc ]
+[e $UE 140  ]
+"253
+[; ;coffeemaker.c: 253:        }
+}
+[e :U 180 ]
+"254
+[; ;coffeemaker.c: 254:        if (RB6==1)
+[e $ ! == -> _RB6 `i -> 1 `i 184  ]
+"255
+[; ;coffeemaker.c: 255:        {
+{
+"256
+[; ;coffeemaker.c: 256:          store('9');
+[e ( _store (1 -> -> 57 `ui `uc ]
+"257
+[; ;coffeemaker.c: 257:          while(RB6==1);
+[e $U 185  ]
+[e :U 186 ]
+[e :U 185 ]
+[e $ == -> _RB6 `i -> 1 `i 186  ]
+[e :U 187 ]
+"258
+[; ;coffeemaker.c: 258:          return '9';
+[e ) -> -> 57 `ui `uc ]
+[e $UE 140  ]
+"259
+[; ;coffeemaker.c: 259:        }
+}
+[e :U 184 ]
+"260
+[; ;coffeemaker.c: 260:        if (RB7==1)
+[e $ ! == -> _RB7 `i -> 1 `i 188  ]
+"261
+[; ;coffeemaker.c: 261:        {
+{
+"262
+[; ;coffeemaker.c: 262:          store('#');
+[e ( _store (1 -> -> 35 `ui `uc ]
+"263
+[; ;coffeemaker.c: 263:          while(RB7==1);
+[e $U 189  ]
+[e :U 190 ]
+[e :U 189 ]
+[e $ == -> _RB7 `i -> 1 `i 190  ]
+[e :U 191 ]
+"264
+[; ;coffeemaker.c: 264:          return '#';
+[e ) -> -> 35 `ui `uc ]
+[e $UE 140  ]
+"265
+[; ;coffeemaker.c: 265:        }
+}
+[e :U 188 ]
+"266
+[; ;coffeemaker.c: 266:     }
+}
+[e :U 141 ]
+[e $U 142  ]
+[e :U 143 ]
+"267
+[; ;coffeemaker.c: 267: }
+[e :UE 140 ]
+}
+"268
+[; ;coffeemaker.c: 268: int compare(char str1[],char str2[],int len)
+[v _compare `(i ~T0 @X0 1 ef3`*uc`*uc`i ]
+"269
+[; ;coffeemaker.c: 269: {
+{
+[e :U _compare ]
+"268
+[; ;coffeemaker.c: 268: int compare(char str1[],char str2[],int len)
+[v _str1 `*uc ~T0 @X0 1 r1 ]
+[v _str2 `*uc ~T0 @X0 1 r2 ]
+[v _len `i ~T0 @X0 1 r3 ]
+"269
+[; ;coffeemaker.c: 269: {
+[f ]
+"270
+[; ;coffeemaker.c: 270:     for (int i=0;i<len;i++)
+{
+[v _i `i ~T0 @X0 1 a ]
+[e = _i -> 0 `i ]
+[e $U 196  ]
+[e :U 193 ]
+"271
+[; ;coffeemaker.c: 271:     {
+{
+"272
+[; ;coffeemaker.c: 272:         if(str1[i]!=str2[i])
+[e $ ! != -> *U + _str1 * -> _i `x -> -> # *U _str1 `i `x `i -> *U + _str2 * -> _i `x -> -> # *U _str2 `i `x `i 197  ]
+"273
+[; ;coffeemaker.c: 273:         {
+{
+"274
+[; ;coffeemaker.c: 274:             return 1;
+[e ) -> 1 `i ]
+[e $UE 192  ]
+"275
+[; ;coffeemaker.c: 275:         }
+}
+[e :U 197 ]
+"276
+[; ;coffeemaker.c: 276:     }
+}
+[e ++ _i -> 1 `i ]
+[e :U 196 ]
+[e $ < _i _len 193  ]
+[e :U 194 ]
+}
+"277
+[; ;coffeemaker.c: 277:     return 0;
+[e ) -> 0 `i ]
+[e $UE 192  ]
+"278
+[; ;coffeemaker.c: 278: }
+[e :UE 192 ]
+}
+"279
+[; ;coffeemaker.c: 279: char middle(char str)
+[v _middle `(uc ~T0 @X0 1 ef1`uc ]
+"280
+[; ;coffeemaker.c: 280: {
+{
+[e :U _middle ]
+"279
+[; ;coffeemaker.c: 279: char middle(char str)
+[v _str `uc ~T0 @X0 1 r1 ]
+"280
+[; ;coffeemaker.c: 280: {
+[f ]
+"281
+[; ;coffeemaker.c: 281:     char k;
+[v _k `uc ~T0 @X0 1 a ]
+"282
+[; ;coffeemaker.c: 282:     char x[1];
+[v _x `uc ~T0 @X0 -> -> 1 `i `ux a ]
+"283
+[; ;coffeemaker.c: 283:         k = keypad();
+[e = _k ( _keypad ..  ]
+"284
+[; ;coffeemaker.c: 284:         if(k =='1')
+[e $ ! == -> _k `ui -> 49 `ui 199  ]
+"285
+[; ;coffeemaker.c: 285:         {
+{
+"286
+[; ;coffeemaker.c: 286:             instruct(0x01);
+[e ( _instruct (1 -> -> 1 `i `uc ]
+"287
+[; ;coffeemaker.c: 287:             instruct(0x80);
+[e ( _instruct (1 -> -> 128 `i `uc ]
+"288
+[; ;coffeemaker.c: 288:             strin(" PLEASE WAIT...",15);
+[e ( _strin (2 , :s 1C -> 15 `i ]
+"289
+[; ;coffeemaker.c: 289:             instruct(0xC0);
+[e ( _instruct (1 -> -> 192 `i `uc ]
+"290
+[; ;coffeemaker.c: 290:             strin("FOR YOUR COFFEE",16);
+[e ( _strin (2 , :s 2C -> 16 `i ]
+"291
+[; ;coffeemaker.c: 291:             making(k);
+[e ( _making (1 _k ]
+"292
+[; ;coffeemaker.c: 292:             instruct(0x01);
+[e ( _instruct (1 -> -> 1 `i `uc ]
+"293
+[; ;coffeemaker.c: 293:             instruct(0x80);
+[e ( _instruct (1 -> -> 128 `i `uc ]
+"294
+[; ;coffeemaker.c: 294:             strin(" want to save ?",15);
+[e ( _strin (2 , :s 3C -> 15 `i ]
+"295
+[; ;coffeemaker.c: 295:             instruct(0xC0);
+[e ( _instruct (1 -> -> 192 `i `uc ]
+"296
+[; ;coffeemaker.c: 296:             strin("1:YES 2:NO :",12);
+[e ( _strin (2 , :s 4C -> 12 `i ]
+"297
+[; ;coffeemaker.c: 297:             x[0] = keypad();
+[e = *U + &U _x * -> -> -> 0 `i `ui `ux -> -> # *U &U _x `ui `ux ( _keypad ..  ]
+"298
+[; ;coffeemaker.c: 298:             int d = compare(x,"1",1);
+[v _d `i ~T0 @X0 1 a ]
+[e = _d ( _compare (3 , , &U _x :s 5C -> 1 `i ]
+"299
+[; ;coffeemaker.c: 299:             if( d == 0)
+[e $ ! == _d -> 0 `i 200  ]
+"300
+[; ;coffeemaker.c: 300:             {
+{
+"301
+[; ;coffeemaker.c: 301:                 str = '1';
+[e = _str -> -> 49 `ui `uc ]
+"303
+[; ;coffeemaker.c: 303:             }
+}
+[e :U 200 ]
+"305
+[; ;coffeemaker.c: 305:         }
+}
+[e $U 201  ]
+"306
+[; ;coffeemaker.c: 306:         else if(k =='2')
+[e :U 199 ]
+[e $ ! == -> _k `ui -> 50 `ui 202  ]
+"307
+[; ;coffeemaker.c: 307:         {
+{
+"308
+[; ;coffeemaker.c: 308:             instruct(0x01);
+[e ( _instruct (1 -> -> 1 `i `uc ]
+"309
+[; ;coffeemaker.c: 309:             instruct(0x80);
+[e ( _instruct (1 -> -> 128 `i `uc ]
+"310
+[; ;coffeemaker.c: 310:             strin(" PLEASE WAIT...",15);
+[e ( _strin (2 , :s 6C -> 15 `i ]
+"311
+[; ;coffeemaker.c: 311:             instruct(0xC0);
+[e ( _instruct (1 -> -> 192 `i `uc ]
+"312
+[; ;coffeemaker.c: 312:             strin("FOR YOUR TEA",12);
+[e ( _strin (2 , :s 7C -> 12 `i ]
+"313
+[; ;coffeemaker.c: 313:             making(k);
+[e ( _making (1 _k ]
+"314
+[; ;coffeemaker.c: 314:             instruct(0x01);
+[e ( _instruct (1 -> -> 1 `i `uc ]
+"315
+[; ;coffeemaker.c: 315:             instruct(0x80);
+[e ( _instruct (1 -> -> 128 `i `uc ]
+"316
+[; ;coffeemaker.c: 316:             strin(" want to save ?",15);
+[e ( _strin (2 , :s 8C -> 15 `i ]
+"317
+[; ;coffeemaker.c: 317:             instruct(0xC0);
+[e ( _instruct (1 -> -> 192 `i `uc ]
+"318
+[; ;coffeemaker.c: 318:             strin("1:YES 2:NO :",12);
+[e ( _strin (2 , :s 9C -> 12 `i ]
+"319
+[; ;coffeemaker.c: 319:             x[0] = keypad();
+[e = *U + &U _x * -> -> -> 0 `i `ui `ux -> -> # *U &U _x `ui `ux ( _keypad ..  ]
+"320
+[; ;coffeemaker.c: 320:             int d = compare(x,"1",1);
+[v _d `i ~T0 @X0 1 a ]
+[e = _d ( _compare (3 , , &U _x :s 10C -> 1 `i ]
+"321
+[; ;coffeemaker.c: 321:             if( d == 0)
+[e $ ! == _d -> 0 `i 203  ]
+"322
+[; ;coffeemaker.c: 322:             {
+{
+"323
+[; ;coffeemaker.c: 323:                 str = '2';
+[e = _str -> -> 50 `ui `uc ]
+"324
+[; ;coffeemaker.c: 324:             }
+}
+[e :U 203 ]
+"326
+[; ;coffeemaker.c: 326:         }
+}
+[e $U 204  ]
+"327
+[; ;coffeemaker.c: 327:         else if(k =='3')
+[e :U 202 ]
+[e $ ! == -> _k `ui -> 51 `ui 205  ]
+"328
+[; ;coffeemaker.c: 328:         {
+{
+"329
+[; ;coffeemaker.c: 329:             instruct(0x01);
+[e ( _instruct (1 -> -> 1 `i `uc ]
+"330
+[; ;coffeemaker.c: 330:             instruct(0x80);
+[e ( _instruct (1 -> -> 128 `i `uc ]
+"331
+[; ;coffeemaker.c: 331:             strin(" PLEASE WAIT...",15);
+[e ( _strin (2 , :s 11C -> 15 `i ]
+"332
+[; ;coffeemaker.c: 332:             instruct(0xC0);
+[e ( _instruct (1 -> -> 192 `i `uc ]
+"333
+[; ;coffeemaker.c: 333:             strin("FOR YOUR MILK",13);
+[e ( _strin (2 , :s 12C -> 13 `i ]
+"334
+[; ;coffeemaker.c: 334:             making(k);
+[e ( _making (1 _k ]
+"335
+[; ;coffeemaker.c: 335:             instruct(0x01);
+[e ( _instruct (1 -> -> 1 `i `uc ]
+"336
+[; ;coffeemaker.c: 336:             instruct(0x80);
+[e ( _instruct (1 -> -> 128 `i `uc ]
+"337
+[; ;coffeemaker.c: 337:             strin(" want to save ?",15);
+[e ( _strin (2 , :s 13C -> 15 `i ]
+"338
+[; ;coffeemaker.c: 338:             instruct(0xC0);
+[e ( _instruct (1 -> -> 192 `i `uc ]
+"339
+[; ;coffeemaker.c: 339:             strin("1:YES 2:NO :",12);
+[e ( _strin (2 , :s 14C -> 12 `i ]
+"340
+[; ;coffeemaker.c: 340:             x[0] = keypad();
+[e = *U + &U _x * -> -> -> 0 `i `ui `ux -> -> # *U &U _x `ui `ux ( _keypad ..  ]
+"341
+[; ;coffeemaker.c: 341:             int d = compare(x,"1",1);
+[v _d `i ~T0 @X0 1 a ]
+[e = _d ( _compare (3 , , &U _x :s 15C -> 1 `i ]
+"342
+[; ;coffeemaker.c: 342:             if( d == 0)
+[e $ ! == _d -> 0 `i 206  ]
+"343
+[; ;coffeemaker.c: 343:             {
+{
+"344
+[; ;coffeemaker.c: 344:                 str = '3';
+[e = _str -> -> 51 `ui `uc ]
+"345
+[; ;coffeemaker.c: 345:             }
+}
+[e :U 206 ]
+"346
+[; ;coffeemaker.c: 346:         }
+}
+[e :U 205 ]
+[e :U 204 ]
+[e :U 201 ]
+"348
+[; ;coffeemaker.c: 348:     return str;
+[e ) _str ]
+[e $UE 198  ]
+"349
+[; ;coffeemaker.c: 349: }
+[e :UE 198 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"351
+[; ;coffeemaker.c: 351: void main(void)
+[v _main `(v ~T0 @X0 1 ef ]
+"352
+[; ;coffeemaker.c: 352: {
+{
+[e :U _main ]
+[f ]
+"354
+[; ;coffeemaker.c: 354:     TRISC=0x00;
+[e = _TRISC -> -> 0 `i `uc ]
+"355
+[; ;coffeemaker.c: 355:     TRISD=0x00;
+[e = _TRISD -> -> 0 `i `uc ]
+"356
+[; ;coffeemaker.c: 356:     TRISB=0xF0;
+[e = _TRISB -> -> 240 `i `uc ]
+"357
+[; ;coffeemaker.c: 357:     TRISA=0x00;
+[e = _TRISA -> -> 0 `i `uc ]
+"358
+[; ;coffeemaker.c: 358:     TRISE=0x00;
+[e = _TRISE -> -> 0 `i `uc ]
+"359
+[; ;coffeemaker.c: 359:     PORTEbits.RE0=0;
+[e = . . _PORTEbits 0 0 -> -> 0 `i `uc ]
+"360
+[; ;coffeemaker.c: 360:     init();
+[e ( _init ..  ]
+"361
+[; ;coffeemaker.c: 361:     RA0=0;
+[e = _RA0 -> -> 0 `i `b ]
+"362
+[; ;coffeemaker.c: 362:     RD4 =0;
+[e = _RD4 -> -> 0 `i `b ]
+"363
+[; ;coffeemaker.c: 363:     RA1=0;
+[e = _RA1 -> -> 0 `i `b ]
+"364
+[; ;coffeemaker.c: 364:     RD5 =0;
+[e = _RD5 -> -> 0 `i `b ]
+"365
+[; ;coffeemaker.c: 365:     RA2 =0;
+[e = _RA2 -> -> 0 `i `b ]
+"366
+[; ;coffeemaker.c: 366:     RD3 =1;
+[e = _RD3 -> -> 1 `i `b ]
+"367
+[; ;coffeemaker.c: 367:     RA3=0;
+[e = _RA3 -> -> 0 `i `b ]
+"368
+[; ;coffeemaker.c: 368:     RA5=0;
+[e = _RA5 -> -> 0 `i `b ]
+"369
+[; ;coffeemaker.c: 369:     RD6 =0;
+[e = _RD6 -> -> 0 `i `b ]
+[v F1019 `uc ~T0 @X0 -> 10 `i t ]
+[v F1018 `F1019 ~T0 @X0 -> 8 `i s ]
+[i F1018
+:U ..
+:U ..
+"370
+[; ;coffeemaker.c: 370:     char arr[8][10]={"deeraj","naveen","shreyas","vishwas","yashwanth","sam","venkat","teja"};
+-> 100 `c
+-> 101 `c
+-> 101 `c
+-> 114 `c
+-> 97 `c
+-> 106 `c
+-> 0 `c
+..
+:U ..
+-> 110 `c
+-> 97 `c
+-> 118 `c
+-> 101 `c
+-> 101 `c
+-> 110 `c
+-> 0 `c
+..
+:U ..
+-> 115 `c
+-> 104 `c
+-> 114 `c
+-> 101 `c
+-> 121 `c
+-> 97 `c
+-> 115 `c
+-> 0 `c
+..
+:U ..
+-> 118 `c
+-> 105 `c
+-> 115 `c
+-> 104 `c
+-> 119 `c
+-> 97 `c
+-> 115 `c
+-> 0 `c
+..
+:U ..
+-> 121 `c
+-> 97 `c
+-> 115 `c
+-> 104 `c
+-> 119 `c
+-> 97 `c
+-> 110 `c
+-> 116 `c
+-> 104 `c
+-> 0 `c
+..
+:U ..
+-> 115 `c
+-> 97 `c
+-> 109 `c
+-> 0 `c
+..
+:U ..
+-> 118 `c
+-> 101 `c
+-> 110 `c
+-> 107 `c
+-> 97 `c
+-> 116 `c
+-> 0 `c
+..
+:U ..
+-> 116 `c
+-> 101 `c
+-> 106 `c
+-> 97 `c
+-> 0 `c
+..
+..
+]
+[v F1021 `uc ~T0 @X0 -> 10 `i t ]
+[v _arr `F1021 ~T0 @X0 -> 8 `i a ]
+[e = _arr F1018 ]
+[v F1023 `uc ~T0 @X0 -> 5 `i t ]
+[v F1022 `F1023 ~T0 @X0 -> 8 `i s ]
+[i F1022
+:U ..
+:U ..
+"371
+[; ;coffeemaker.c: 371:     char arr2[8][5]={" 1234"," 5678"," 1028"," 7923"," 5210"," 2964"," 5791"," 0024"};
+-> 32 `c
+-> 49 `c
+-> 50 `c
+-> 51 `c
+-> 52 `c
+..
+:U ..
+-> 32 `c
+-> 53 `c
+-> 54 `c
+-> 55 `c
+-> 56 `c
+..
+:U ..
+-> 32 `c
+-> 49 `c
+-> 48 `c
+-> 50 `c
+-> 56 `c
+..
+:U ..
+-> 32 `c
+-> 55 `c
+-> 57 `c
+-> 50 `c
+-> 51 `c
+..
+:U ..
+-> 32 `c
+-> 53 `c
+-> 50 `c
+-> 49 `c
+-> 48 `c
+..
+:U ..
+-> 32 `c
+-> 50 `c
+-> 57 `c
+-> 54 `c
+-> 52 `c
+..
+:U ..
+-> 32 `c
+-> 53 `c
+-> 55 `c
+-> 57 `c
+-> 49 `c
+..
+:U ..
+-> 32 `c
+-> 48 `c
+-> 48 `c
+-> 50 `c
+-> 52 `c
+..
+..
+]
+[v F1025 `uc ~T0 @X0 -> 5 `i t ]
+[v _arr2 `F1025 ~T0 @X0 -> 8 `i a ]
+[e = _arr2 F1022 ]
+[v F1027 `uc ~T0 @X0 -> -> 1 `i `ux t ]
+[v F1026 `F1027 ~T0 @X0 -> 8 `i s ]
+[i F1026
+:U ..
+:U ..
+"372
+[; ;coffeemaker.c: 372:     char arr3[8][1]={"0","0","0","0","0","0","0","0"};
+-> 48 `c
+..
+:U ..
+-> 48 `c
+..
+:U ..
+-> 48 `c
+..
+:U ..
+-> 48 `c
+..
+:U ..
+-> 48 `c
+..
+:U ..
+-> 48 `c
+..
+:U ..
+-> 48 `c
+..
+:U ..
+-> 48 `c
+..
+..
+]
+[v F1029 `uc ~T0 @X0 -> -> 1 `i `ux t ]
+[v _arr3 `F1029 ~T0 @X0 -> 8 `i a ]
+[e = _arr3 F1026 ]
+"373
+[; ;coffeemaker.c: 373:     instruct(0x80);
+[e ( _instruct (1 -> -> 128 `i `uc ]
+"374
+[; ;coffeemaker.c: 374:     strin(" WELCOME",8);
+[e ( _strin (2 , :s 16C -> 8 `i ]
+"375
+[; ;coffeemaker.c: 375:     _delay((unsigned long)((1000)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"376
+[; ;coffeemaker.c: 376:     while(1)
+[e :U 209 ]
+"377
+[; ;coffeemaker.c: 377:     {
+{
+"378
+[; ;coffeemaker.c: 378:         instruct(0x01);
+[e ( _instruct (1 -> -> 1 `i `uc ]
+"379
+[; ;coffeemaker.c: 379:         strin(" ENTER ID :",11);
+[e ( _strin (2 , :s 17C -> 11 `i ]
+"380
+[; ;coffeemaker.c: 380:         _delay((unsigned long)((10)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"381
+[; ;coffeemaker.c: 381:         int i;
+[v _i `i ~T0 @X0 1 a ]
+"382
+[; ;coffeemaker.c: 382:         i=1;
+[e = _i -> 1 `i ]
+[v F1031 `uc ~T0 @X0 -> 6 `i s ]
+[i F1031
+:U ..
+"383
+[; ;coffeemaker.c: 383:         char pass[]="     ";
+-> 32 `c
+-> 32 `c
+-> 32 `c
+-> 32 `c
+-> 32 `c
+-> 0 `c
+..
+]
+[v _pass `uc ~T0 @X0 -> 6 `i a ]
+[e = _pass F1031 ]
+"384
+[; ;coffeemaker.c: 384:         char k;
+[v _k `uc ~T0 @X0 1 a ]
+"385
+[; ;coffeemaker.c: 385:         while(i<5)
+[e $U 211  ]
+[e :U 212 ]
+"386
+[; ;coffeemaker.c: 386:         {
+{
+"387
+[; ;coffeemaker.c: 387:             k=keypad();
+[e = _k ( _keypad ..  ]
+"388
+[; ;coffeemaker.c: 388:             pass[i]=k;
+[e = *U + &U _pass * -> -> _i `ui `ux -> -> # *U &U _pass `ui `ux _k ]
+"389
+[; ;coffeemaker.c: 389:             i=i+1;
+[e = _i + _i -> 1 `i ]
+"390
+[; ;coffeemaker.c: 390:         }
+}
+[e :U 211 ]
+"385
+[; ;coffeemaker.c: 385:         while(i<5)
+[e $ < _i -> 5 `i 212  ]
+[e :U 213 ]
+"391
+[; ;coffeemaker.c: 391:         PORTEbits.RE0=1;
+[e = . . _PORTEbits 0 0 -> -> 1 `i `uc ]
+"392
+[; ;coffeemaker.c: 392:         instruct(0x01);
+[e ( _instruct (1 -> -> 1 `i `uc ]
+"397
+[; ;coffeemaker.c: 397:         int var;
+[v _var `i ~T0 @X0 1 a ]
+"398
+[; ;coffeemaker.c: 398:         int count;
+[v _count `i ~T0 @X0 1 a ]
+"399
+[; ;coffeemaker.c: 399:         count=1;
+[e = _count -> 1 `i ]
+"400
+[; ;coffeemaker.c: 400:         char x[1];
+[v _x `uc ~T0 @X0 -> -> 1 `i `ux a ]
+"401
+[; ;coffeemaker.c: 401:         int flag=0;
+[v _flag `i ~T0 @X0 1 a ]
+[e = _flag -> 0 `i ]
+"402
+[; ;coffeemaker.c: 402:         for (int j = 0;j<7;j++)
+{
+[v _j `i ~T0 @X0 1 a ]
+[e = _j -> 0 `i ]
+[e $ < _j -> 7 `i 214  ]
+[e $U 215  ]
+[e :U 214 ]
+"403
+[; ;coffeemaker.c: 403:         {
+{
+"404
+[; ;coffeemaker.c: 404:             int value = compare(arr2[j],pass,5);
+[v _value `i ~T0 @X0 1 a ]
+[e = _value ( _compare (3 , , &U *U + &U _arr2 * -> -> _j `ui `ux -> * -> # *U &U *U &U _arr2 `ui -> -> 5 `i `ui `ux &U _pass -> 5 `i ]
+"405
+[; ;coffeemaker.c: 405:             if( value == 0 )
+[e $ ! == _value -> 0 `i 217  ]
+"406
+[; ;coffeemaker.c: 406:             {
+{
+"407
+[; ;coffeemaker.c: 407:                 var = j;
+[e = _var _j ]
+"408
+[; ;coffeemaker.c: 408:                 flag=1;
+[e = _flag -> 1 `i ]
+"409
+[; ;coffeemaker.c: 409:                 instruct(0x80);
+[e ( _instruct (1 -> -> 128 `i `uc ]
+"410
+[; ;coffeemaker.c: 410:                 strin(" HI ",4);
+[e ( _strin (2 , :s 18C -> 4 `i ]
+"411
+[; ;coffeemaker.c: 411:                 instruct(0xC0);
+[e ( _instruct (1 -> -> 192 `i `uc ]
+"412
+[; ;coffeemaker.c: 412:                 strin(arr[j],9);
+[e ( _strin (2 , &U *U + &U _arr * -> -> _j `ui `ux -> * -> # *U &U *U &U _arr `ui -> -> 10 `i `ui `ux -> 9 `i ]
+"413
+[; ;coffeemaker.c: 413:                 _delay((unsigned long)((1000)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"415
+[; ;coffeemaker.c: 415:                 instruct(0x01);
+[e ( _instruct (1 -> -> 1 `i `uc ]
+"416
+[; ;coffeemaker.c: 416:             }
+}
+[e :U 217 ]
+"418
+[; ;coffeemaker.c: 418:         }
+}
+[e ++ _j -> 1 `i ]
+[e $ < _j -> 7 `i 214  ]
+[e :U 215 ]
+}
+"420
+[; ;coffeemaker.c: 420:         if(flag==0)
+[e $ ! == _flag -> 0 `i 218  ]
+"421
+[; ;coffeemaker.c: 421:         {
+{
+"422
+[; ;coffeemaker.c: 422:             instruct(0x80);
+[e ( _instruct (1 -> -> 128 `i `uc ]
+"423
+[; ;coffeemaker.c: 423:             strin(" WRONG ID!!",11);
+[e ( _strin (2 , :s 19C -> 11 `i ]
+"424
+[; ;coffeemaker.c: 424:             _delay((unsigned long)((1000)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"425
+[; ;coffeemaker.c: 425:         }
+}
+[e $U 219  ]
+"426
+[; ;coffeemaker.c: 426:         else
+[e :U 218 ]
+"427
+[; ;coffeemaker.c: 427:         {
+{
+"428
+[; ;coffeemaker.c: 428:             int f = compare(arr3[var],"0",1);
+[v _f `i ~T0 @X0 1 a ]
+[e = _f ( _compare (3 , , &U *U + &U _arr3 * -> -> _var `ui `ux -> * -> # *U &U *U &U _arr3 `ui -> -> 1 `i `ui `ux :s 20C -> 1 `i ]
+"429
+[; ;coffeemaker.c: 429:             instruct(0x01);
+[e ( _instruct (1 -> -> 1 `i `uc ]
+"430
+[; ;coffeemaker.c: 430:             if(f == 0)
+[e $ ! == _f -> 0 `i 220  ]
+"431
+[; ;coffeemaker.c: 431:             {
+{
+"432
+[; ;coffeemaker.c: 432:                 instruct(0x80);
+[e ( _instruct (1 -> -> 128 `i `uc ]
+"433
+[; ;coffeemaker.c: 433:                 strin(" 1:COFFEE 2:TEA",15);
+[e ( _strin (2 , :s 21C -> 15 `i ]
+"434
+[; ;coffeemaker.c: 434:                 instruct(0xC0);
+[e ( _instruct (1 -> -> 192 `i `uc ]
+"435
+[; ;coffeemaker.c: 435:                 strin(" 3:MILK :",9);
+[e ( _strin (2 , :s 22C -> 9 `i ]
+"436
+[; ;coffeemaker.c: 436:                 arr3[var][0]= middle(arr3[var][0]);
+[e = *U + &U *U + &U _arr3 * -> -> _var `ui `ux -> * -> # *U &U *U &U _arr3 `ui -> -> 1 `i `ui `ux * -> -> -> 0 `i `ui `ux -> -> # *U &U *U + &U _arr3 * -> -> _var `ui `ux -> * -> # *U &U *U &U _arr3 `ui -> -> 1 `i `ui `ux `ui `ux ( _middle (1 *U + &U *U + &U _arr3 * -> -> _var `ui `ux -> * -> # *U &U *U &U _arr3 `ui -> -> 1 `i `ui `ux * -> -> -> 0 `i `ui `ux -> -> # *U &U *U + &U _arr3 * -> -> _var `ui `ux -> * -> # *U &U *U &U _arr3 `ui -> -> 1 `i `ui `ux `ui `ux ]
+"437
+[; ;coffeemaker.c: 437:             }
+}
+[e $U 221  ]
+"438
+[; ;coffeemaker.c: 438:             else
+[e :U 220 ]
+"439
+[; ;coffeemaker.c: 439:             {
+{
+"440
+[; ;coffeemaker.c: 440:                 instruct(0x01);
+[e ( _instruct (1 -> -> 1 `i `uc ]
+"441
+[; ;coffeemaker.c: 441:                 instruct(0x80);
+[e ( _instruct (1 -> -> 128 `i `uc ]
+"442
+[; ;coffeemaker.c: 442:                 strin(" 1:regular ",11);
+[e ( _strin (2 , :s 23C -> 11 `i ]
+"443
+[; ;coffeemaker.c: 443:                 instruct(0xC0);
+[e ( _instruct (1 -> -> 192 `i `uc ]
+"444
+[; ;coffeemaker.c: 444:                 strin(" 2.new : ",9);
+[e ( _strin (2 , :s 24C -> 9 `i ]
+"445
+[; ;coffeemaker.c: 445:                 k = keypad();
+[e = _k ( _keypad ..  ]
+"446
+[; ;coffeemaker.c: 446:                 if (k == '1')
+[e $ ! == -> _k `ui -> 49 `ui 222  ]
+"447
+[; ;coffeemaker.c: 447:                 {
+{
+"448
+[; ;coffeemaker.c: 448:                     instruct(0x01);
+[e ( _instruct (1 -> -> 1 `i `uc ]
+"449
+[; ;coffeemaker.c: 449:                     instruct(0x80);
+[e ( _instruct (1 -> -> 128 `i `uc ]
+"450
+[; ;coffeemaker.c: 450:                     strin(" PREPARING YOUR",15);
+[e ( _strin (2 , :s 25C -> 15 `i ]
+"451
+[; ;coffeemaker.c: 451:                     instruct(0xC0);
+[e ( _instruct (1 -> -> 192 `i `uc ]
+"452
+[; ;coffeemaker.c: 452:                     strin("REGULAR ORDER",13);
+[e ( _strin (2 , :s 26C -> 13 `i ]
+"453
+[; ;coffeemaker.c: 453:                     making(arr3[var][0]);
+[e ( _making (1 *U + &U *U + &U _arr3 * -> -> _var `ui `ux -> * -> # *U &U *U &U _arr3 `ui -> -> 1 `i `ui `ux * -> -> -> 0 `i `ui `ux -> -> # *U &U *U + &U _arr3 * -> -> _var `ui `ux -> * -> # *U &U *U &U _arr3 `ui -> -> 1 `i `ui `ux `ui `ux ]
+"455
+[; ;coffeemaker.c: 455:                 }
+}
+[e $U 223  ]
+"456
+[; ;coffeemaker.c: 456:                 else if(k =='2')
+[e :U 222 ]
+[e $ ! == -> _k `ui -> 50 `ui 224  ]
+"457
+[; ;coffeemaker.c: 457:                 {
+{
+"458
+[; ;coffeemaker.c: 458:                     instruct(0x01);
+[e ( _instruct (1 -> -> 1 `i `uc ]
+"459
+[; ;coffeemaker.c: 459:                     instruct(0x80);
+[e ( _instruct (1 -> -> 128 `i `uc ]
+"460
+[; ;coffeemaker.c: 460:                     strin(" 1:COFFEE 2:TEA",15);
+[e ( _strin (2 , :s 27C -> 15 `i ]
+"461
+[; ;coffeemaker.c: 461:                     instruct(0xC0);
+[e ( _instruct (1 -> -> 192 `i `uc ]
+"462
+[; ;coffeemaker.c: 462:                     strin(" 3:MILK :",9);
+[e ( _strin (2 , :s 28C -> 9 `i ]
+"463
+[; ;coffeemaker.c: 463:                     arr3[var][0]= middle(arr3[var][0]);
+[e = *U + &U *U + &U _arr3 * -> -> _var `ui `ux -> * -> # *U &U *U &U _arr3 `ui -> -> 1 `i `ui `ux * -> -> -> 0 `i `ui `ux -> -> # *U &U *U + &U _arr3 * -> -> _var `ui `ux -> * -> # *U &U *U &U _arr3 `ui -> -> 1 `i `ui `ux `ui `ux ( _middle (1 *U + &U *U + &U _arr3 * -> -> _var `ui `ux -> * -> # *U &U *U &U _arr3 `ui -> -> 1 `i `ui `ux * -> -> -> 0 `i `ui `ux -> -> # *U &U *U + &U _arr3 * -> -> _var `ui `ux -> * -> # *U &U *U &U _arr3 `ui -> -> 1 `i `ui `ux `ui `ux ]
+"464
+[; ;coffeemaker.c: 464:                 }
+}
+[e :U 224 ]
+[e :U 223 ]
+"466
+[; ;coffeemaker.c: 466:             }
+}
+[e :U 221 ]
+"467
+[; ;coffeemaker.c: 467:         }
+}
+[e :U 219 ]
+"468
+[; ;coffeemaker.c: 468:     instruct(0x01);
+[e ( _instruct (1 -> -> 1 `i `uc ]
+"469
+[; ;coffeemaker.c: 469:     instruct(0x80);
+[e ( _instruct (1 -> -> 128 `i `uc ]
+"470
+[; ;coffeemaker.c: 470:     strin(" THANK YOU!!",12);
+[e ( _strin (2 , :s 29C -> 12 `i ]
+"471
+[; ;coffeemaker.c: 471:     _delay((unsigned long)((1000)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"472
+[; ;coffeemaker.c: 472:     instruct(0x01);
+[e ( _instruct (1 -> -> 1 `i `uc ]
+"473
+[; ;coffeemaker.c: 473:     PORTEbits.RE0=0;
+[e = . . _PORTEbits 0 0 -> -> 0 `i `uc ]
+"474
+[; ;coffeemaker.c: 474:     }
+}
+[e :U 208 ]
+[e $U 209  ]
+[e :U 210 ]
+"475
+[; ;coffeemaker.c: 475: }
+[e :UE 207 ]
+}
+[a 25C 32 80 82 69 80 65 82 73 78 71 32 89 79 85 82 0 ]
+[a 26C 82 69 71 85 76 65 82 32 79 82 68 69 82 0 ]
+[a 12C 70 79 82 32 89 79 85 82 32 77 73 76 75 0 ]
+[a 16C 32 87 69 76 67 79 77 69 0 ]
+[a 2C 70 79 82 32 89 79 85 82 32 67 79 70 70 69 69 0 ]
+[a 21C 32 49 58 67 79 70 70 69 69 32 50 58 84 69 65 0 ]
+[a 27C 32 49 58 67 79 70 70 69 69 32 50 58 84 69 65 0 ]
+[a 7C 70 79 82 32 89 79 85 82 32 84 69 65 0 ]
+[a 3C 32 119 97 110 116 32 116 111 32 115 97 118 101 32 63 0 ]
+[a 8C 32 119 97 110 116 32 116 111 32 115 97 118 101 32 63 0 ]
+[a 13C 32 119 97 110 116 32 116 111 32 115 97 118 101 32 63 0 ]
+[a 4C 49 58 89 69 83 32 50 58 78 79 32 58 0 ]
+[a 9C 49 58 89 69 83 32 50 58 78 79 32 58 0 ]
+[a 14C 49 58 89 69 83 32 50 58 78 79 32 58 0 ]
+[a 22C 32 51 58 77 73 76 75 32 58 0 ]
+[a 28C 32 51 58 77 73 76 75 32 58 0 ]
+[a 17C 32 69 78 84 69 82 32 73 68 32 58 0 ]
+[a 5C 49 0 ]
+[a 10C 49 0 ]
+[a 15C 49 0 ]
+[a 20C 48 0 ]
+[a 1C 32 80 76 69 65 83 69 32 87 65 73 84 46 46 46 0 ]
+[a 6C 32 80 76 69 65 83 69 32 87 65 73 84 46 46 46 0 ]
+[a 11C 32 80 76 69 65 83 69 32 87 65 73 84 46 46 46 0 ]
+[a 29C 32 84 72 65 78 75 32 89 79 85 33 33 0 ]
+[a 19C 32 87 82 79 78 71 32 73 68 33 33 0 ]
+[a 23C 32 49 58 114 101 103 117 108 97 114 32 0 ]
+[a 18C 32 72 73 32 0 ]
+[a 24C 32 50 46 110 101 119 32 58 32 0 ]

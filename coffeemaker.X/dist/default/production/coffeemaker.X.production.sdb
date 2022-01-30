@@ -1,0 +1,230 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"41 D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+[v _store store `(v  1 e 1 0 ]
+"52
+[v _instruct instruct `(v  1 e 1 0 ]
+"63
+[v _strin strin `(v  1 e 1 0 ]
+"74
+[v _init init `(v  1 e 1 0 ]
+"81
+[v _making making `(v  1 e 1 0 ]
+"187
+[v _keypad keypad `(uc  1 e 1 0 ]
+"268
+[v _compare compare `(i  1 e 2 0 ]
+"279
+[v _middle middle `(uc  1 e 1 0 ]
+"351
+[v _main main `(v  1 e 1 0 ]
+"10 D:\mplab x\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 D:\mplab x\pic\sources\c90\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+"4 D:\mplab x\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 D:\mplab x\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"278 D:/mplab x/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+[s S23 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"357
+[u S32 . 1 `S23 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES32  1 e 1 @8 ]
+[s S71 . 1 `uc 1 RE0 1 0 :1:0 
+`uc 1 RE1 1 0 :1:1 
+`uc 1 RE2 1 0 :1:2 
+]
+"414
+[u S75 . 1 `S71 1 . 1 0 ]
+[v _PORTEbits PORTEbits `VES75  1 e 1 @9 ]
+"1325
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"1375
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1437
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"1499
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"1561
+[v _TRISE TRISE `VEuc  1 e 1 @137 ]
+"2656
+[v _RA0 RA0 `VEb  1 e 0 @40 ]
+"2659
+[v _RA1 RA1 `VEb  1 e 0 @41 ]
+"2662
+[v _RA2 RA2 `VEb  1 e 0 @42 ]
+"2665
+[v _RA3 RA3 `VEb  1 e 0 @43 ]
+"2671
+[v _RA5 RA5 `VEb  1 e 0 @45 ]
+"2674
+[v _RB0 RB0 `VEb  1 e 0 @48 ]
+"2677
+[v _RB1 RB1 `VEb  1 e 0 @49 ]
+"2680
+[v _RB2 RB2 `VEb  1 e 0 @50 ]
+"2686
+[v _RB4 RB4 `VEb  1 e 0 @52 ]
+"2689
+[v _RB5 RB5 `VEb  1 e 0 @53 ]
+"2692
+[v _RB6 RB6 `VEb  1 e 0 @54 ]
+"2695
+[v _RB7 RB7 `VEb  1 e 0 @55 ]
+"2758
+[v _RD3 RD3 `VEb  1 e 0 @67 ]
+"2761
+[v _RD4 RD4 `VEb  1 e 0 @68 ]
+"2764
+[v _RD5 RD5 `VEb  1 e 0 @69 ]
+"2767
+[v _RD6 RD6 `VEb  1 e 0 @70 ]
+"351 D:\OneDrive\Desktop\coffeemaker.X\coffeemaker.c
+[v _main main `(v  1 e 1 0 ]
+{
+"404
+[v main@value value `i  1 a 2 70 ]
+"428
+[v main@f f `i  1 a 2 72 ]
+"402
+[v main@j j `i  1 a 2 0 ]
+"383
+[v main@pass pass `[6]uc  1 a 6 56 ]
+"397
+[v main@var var `i  1 a 2 2 ]
+"381
+[v main@i i `i  1 a 2 76 ]
+"401
+[v main@flag flag `i  1 a 2 74 ]
+"384
+[v main@k k `uc  1 a 1 78 ]
+"370
+[v main@arr arr `[8][10]uc  1 a 80 0 ]
+"371
+[v main@arr2 arr2 `[8][5]uc  1 a 40 16 ]
+"372
+[v main@arr3 arr3 `[8][1]uc  1 a 8 62 ]
+"369
+[v main@F1018 F1018 `[8][10]uc  1 s 80 F1018 ]
+"370
+[v main@F1022 F1022 `[8][5]uc  1 s 40 F1022 ]
+"371
+[v main@F1026 F1026 `[8][1]uc  1 s 8 F1026 ]
+"382
+[v main@F1031 F1031 `[6]uc  1 s 6 F1031 ]
+"475
+} 0
+"279
+[v _middle middle `(uc  1 e 1 0 ]
+{
+[v middle@str str `uc  1 a 1 wreg ]
+"341
+[v middle@d_135 d `i  1 a 2 7 ]
+"320
+[v middle@d_129 d `i  1 a 2 5 ]
+"298
+[v middle@d d `i  1 a 2 3 ]
+"281
+[v middle@k k `uc  1 a 1 11 ]
+"282
+[v middle@x x `[1]uc  1 a 1 10 ]
+"279
+[v middle@str str `uc  1 a 1 wreg ]
+"283
+[v middle@str str `uc  1 a 1 9 ]
+"349
+} 0
+"63
+[v _strin strin `(v  1 e 1 0 ]
+{
+"65
+[v strin@i i `i  1 a 2 11 ]
+"63
+[v strin@stri stri `*.26uc  1 p 2 4 ]
+[v strin@n n `i  1 p 2 6 ]
+"70
+} 0
+"81
+[v _making making `(v  1 e 1 0 ]
+{
+[v making@t t `uc  1 a 1 wreg ]
+"84
+[v making@j j `ui  1 a 2 6 ]
+"83
+[v making@i i `ui  1 a 2 4 ]
+"81
+[v making@t t `uc  1 a 1 wreg ]
+"85
+[v making@t t `uc  1 a 1 3 ]
+"184
+} 0
+"187
+[v _keypad keypad `(uc  1 e 1 0 ]
+{
+"267
+} 0
+"41
+[v _store store `(v  1 e 1 0 ]
+{
+[v store@data data `uc  1 a 1 wreg ]
+[v store@data data `uc  1 a 1 wreg ]
+"43
+[v store@data data `uc  1 a 1 0 ]
+"48
+} 0
+"268
+[v _compare compare `(i  1 e 2 0 ]
+{
+[v compare@str1 str1 `*.4uc  1 a 1 wreg ]
+"270
+[v compare@i i `i  1 a 2 1 ]
+"268
+[v compare@str1 str1 `*.4uc  1 a 1 wreg ]
+[v compare@str2 str2 `*.26uc  1 p 2 4 ]
+[v compare@len len `i  1 p 2 6 ]
+"270
+[v compare@str1 str1 `*.4uc  1 a 1 0 ]
+"278
+} 0
+"74
+[v _init init `(v  1 e 1 0 ]
+{
+"80
+} 0
+"52
+[v _instruct instruct `(v  1 e 1 0 ]
+{
+[v instruct@inst inst `uc  1 a 1 wreg ]
+[v instruct@inst inst `uc  1 a 1 wreg ]
+"54
+[v instruct@inst inst `uc  1 a 1 0 ]
+"59
+} 0
+"4 D:\mplab x\pic\sources\c90\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+{
+[v ___bmul@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v ___bmul@product product `uc  1 a 1 2 ]
+"4
+[v ___bmul@multiplier multiplier `uc  1 a 1 wreg ]
+[v ___bmul@multiplicand multiplicand `uc  1 p 1 0 ]
+"6
+[v ___bmul@multiplier multiplier `uc  1 a 1 3 ]
+"51
+} 0
